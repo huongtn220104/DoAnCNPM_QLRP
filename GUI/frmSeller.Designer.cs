@@ -32,14 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSeller));
             this.panel2 = new System.Windows.Forms.Panel();
             this.labelX = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dtpThoiGian = new System.Windows.Forms.DateTimePicker();
-            this.cboFilmName = new System.Windows.Forms.ComboBox();
-            this.cboFormatFilm = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.lvLichChieu = new System.Windows.Forms.ListView();
@@ -50,11 +42,22 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.gpbChiTiet = new System.Windows.Forms.GroupBox();
+            this.cboDinhDang = new System.Windows.Forms.ComboBox();
+            this.cboPhim = new System.Windows.Forms.ComboBox();
+            this.dtmThoiGian = new System.Windows.Forms.DateTimePicker();
+            this.lblDinhDang = new System.Windows.Forms.Label();
+            this.lblThoiGian = new System.Windows.Forms.Label();
+            this.lblTenPhim = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.gpbChiTiet.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -64,7 +67,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1135, 72);
+            this.panel2.Size = new System.Drawing.Size(1346, 72);
             this.panel2.TabIndex = 9;
             // 
             // labelX
@@ -75,110 +78,19 @@
             this.labelX.Location = new System.Drawing.Point(0, 0);
             this.labelX.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelX.Name = "labelX";
-            this.labelX.Size = new System.Drawing.Size(1135, 72);
+            this.labelX.Size = new System.Drawing.Size(1346, 72);
             this.labelX.TabIndex = 0;
             this.labelX.Text = "Lịch Chiếu Phim";
             this.labelX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.groupBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 72);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(319, 534);
-            this.panel3.TabIndex = 15;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.dtpThoiGian);
-            this.groupBox1.Controls.Add(this.cboFilmName);
-            this.groupBox1.Controls.Add(this.cboFormatFilm);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.groupBox1.Size = new System.Drawing.Size(319, 534);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Chi Tiết:";
-            // 
-            // dtpThoiGian
-            // 
-            this.dtpThoiGian.CustomFormat = "dd/MM/yyyy";
-            this.dtpThoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpThoiGian.Location = new System.Drawing.Point(11, 58);
-            this.dtpThoiGian.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.dtpThoiGian.Name = "dtpThoiGian";
-            this.dtpThoiGian.Size = new System.Drawing.Size(289, 30);
-            this.dtpThoiGian.TabIndex = 3;
-            this.dtpThoiGian.Value = new System.DateTime(2020, 12, 24, 0, 0, 0, 0);
-            this.dtpThoiGian.ValueChanged += new System.EventHandler(this.dtpThoiGian_ValueChanged);
-            // 
-            // cboFilmName
-            // 
-            this.cboFilmName.FormattingEnabled = true;
-            this.cboFilmName.Location = new System.Drawing.Point(11, 119);
-            this.cboFilmName.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.cboFilmName.Name = "cboFilmName";
-            this.cboFilmName.Size = new System.Drawing.Size(289, 33);
-            this.cboFilmName.TabIndex = 4;
-            this.cboFilmName.SelectedIndexChanged += new System.EventHandler(this.cboFilmName_SelectedIndexChanged);
-            // 
-            // cboFormatFilm
-            // 
-            this.cboFormatFilm.FormattingEnabled = true;
-            this.cboFormatFilm.Location = new System.Drawing.Point(11, 193);
-            this.cboFormatFilm.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.cboFormatFilm.Name = "cboFormatFilm";
-            this.cboFormatFilm.Size = new System.Drawing.Size(289, 33);
-            this.cboFormatFilm.TabIndex = 1;
-            this.cboFormatFilm.SelectedIndexChanged += new System.EventHandler(this.cboFormatFilm_SelectedIndexChanged);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 91);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 25);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Phim:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 29);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Thời Gian:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 159);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Định dạng:";
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(319, 72);
+            this.panel4.Location = new System.Drawing.Point(534, 72);
             this.panel4.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(816, 534);
+            this.panel4.Size = new System.Drawing.Size(812, 564);
             this.panel4.TabIndex = 1;
             // 
             // panel5
@@ -188,7 +100,7 @@
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(816, 534);
+            this.panel5.Size = new System.Drawing.Size(812, 564);
             this.panel5.TabIndex = 15;
             // 
             // lvLichChieu
@@ -206,7 +118,7 @@
             this.lvLichChieu.Location = new System.Drawing.Point(0, 0);
             this.lvLichChieu.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.lvLichChieu.Name = "lvLichChieu";
-            this.lvLichChieu.Size = new System.Drawing.Size(816, 534);
+            this.lvLichChieu.Size = new System.Drawing.Size(812, 564);
             this.lvLichChieu.SmallImageList = this.imageList1;
             this.lvLichChieu.TabIndex = 0;
             this.lvLichChieu.UseCompatibleStateImageBehavior = false;
@@ -252,12 +164,129 @@
             this.timer1.Interval = 30000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.gpbChiTiet);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 72);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(534, 564);
+            this.panel3.TabIndex = 15;
+            // 
+            // gpbChiTiet
+            // 
+            this.gpbChiTiet.Controls.Add(this.cboDinhDang);
+            this.gpbChiTiet.Controls.Add(this.cboPhim);
+            this.gpbChiTiet.Controls.Add(this.dtmThoiGian);
+            this.gpbChiTiet.Controls.Add(this.lblDinhDang);
+            this.gpbChiTiet.Controls.Add(this.lblThoiGian);
+            this.gpbChiTiet.Controls.Add(this.lblTenPhim);
+            this.gpbChiTiet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpbChiTiet.Location = new System.Drawing.Point(8, 3);
+            this.gpbChiTiet.Name = "gpbChiTiet";
+            this.gpbChiTiet.Size = new System.Drawing.Size(521, 257);
+            this.gpbChiTiet.TabIndex = 1;
+            this.gpbChiTiet.TabStop = false;
+            this.gpbChiTiet.Text = "Chi tiết";
+            // 
+            // cboDinhDang
+            // 
+            this.cboDinhDang.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.cboDinhDang.FormattingEnabled = true;
+            this.cboDinhDang.Location = new System.Drawing.Point(197, 183);
+            this.cboDinhDang.Name = "cboDinhDang";
+            this.cboDinhDang.Size = new System.Drawing.Size(303, 28);
+            this.cboDinhDang.TabIndex = 5;
+            this.cboDinhDang.SelectedIndexChanged += new System.EventHandler(this.cboDinhDang_SelectedIndexChanged);
+            // 
+            // cboPhim
+            // 
+            this.cboPhim.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboPhim.FormattingEnabled = true;
+            this.cboPhim.Location = new System.Drawing.Point(75, 43);
+            this.cboPhim.Name = "cboPhim";
+            this.cboPhim.Size = new System.Drawing.Size(425, 28);
+            this.cboPhim.TabIndex = 4;
+            this.cboPhim.SelectedIndexChanged += new System.EventHandler(this.cboPhim_SelectedIndexChanged);
+            // 
+            // dtmThoiGian
+            // 
+            this.dtmThoiGian.CustomFormat = "dd/MM/yyyy";
+            this.dtmThoiGian.Font = new System.Drawing.Font("Times New Roman", 11F);
+            this.dtmThoiGian.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtmThoiGian.Location = new System.Drawing.Point(197, 112);
+            this.dtmThoiGian.Name = "dtmThoiGian";
+            this.dtmThoiGian.Size = new System.Drawing.Size(303, 29);
+            this.dtmThoiGian.TabIndex = 3;
+            this.dtmThoiGian.ValueChanged += new System.EventHandler(this.dtmThoiGian_ValueChanged);
+            // 
+            // lblDinhDang
+            // 
+            this.lblDinhDang.AutoSize = true;
+            this.lblDinhDang.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lblDinhDang.Location = new System.Drawing.Point(5, 183);
+            this.lblDinhDang.Name = "lblDinhDang";
+            this.lblDinhDang.Size = new System.Drawing.Size(164, 24);
+            this.lblDinhDang.TabIndex = 2;
+            this.lblDinhDang.Text = "Định dạng phim:";
+            // 
+            // lblThoiGian
+            // 
+            this.lblThoiGian.AutoSize = true;
+            this.lblThoiGian.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lblThoiGian.Location = new System.Drawing.Point(6, 112);
+            this.lblThoiGian.Name = "lblThoiGian";
+            this.lblThoiGian.Size = new System.Drawing.Size(104, 24);
+            this.lblThoiGian.TabIndex = 1;
+            this.lblThoiGian.Text = "Thời gian:";
+            // 
+            // lblTenPhim
+            // 
+            this.lblTenPhim.AutoSize = true;
+            this.lblTenPhim.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
+            this.lblTenPhim.Location = new System.Drawing.Point(6, 45);
+            this.lblTenPhim.Name = "lblTenPhim";
+            this.lblTenPhim.Size = new System.Drawing.Size(63, 24);
+            this.lblTenPhim.TabIndex = 0;
+            this.lblTenPhim.Text = "Phim:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 159);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(107, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Định dạng:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(11, 20);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Thời Gian:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 91);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 25);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Phim:";
+            // 
             // frmSeller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
-            this.ClientSize = new System.Drawing.Size(1135, 606);
+            this.ClientSize = new System.Drawing.Size(1346, 636);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -268,11 +297,11 @@
             this.Text = "Lịch Chiếu Phim";
             this.Load += new System.EventHandler(this.frmSeller_Load);
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.gpbChiTiet.ResumeLayout(false);
+            this.gpbChiTiet.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -280,14 +309,6 @@
         #endregion
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label labelX;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dtpThoiGian;
-        private System.Windows.Forms.ComboBox cboFilmName;
-        private System.Windows.Forms.ComboBox cboFormatFilm;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.ListView lvLichChieu;
@@ -298,5 +319,16 @@
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox gpbChiTiet;
+        private System.Windows.Forms.ComboBox cboDinhDang;
+        private System.Windows.Forms.ComboBox cboPhim;
+        private System.Windows.Forms.DateTimePicker dtmThoiGian;
+        private System.Windows.Forms.Label lblDinhDang;
+        private System.Windows.Forms.Label lblThoiGian;
+        private System.Windows.Forms.Label lblTenPhim;
     }
 }

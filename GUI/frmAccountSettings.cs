@@ -44,6 +44,29 @@ namespace GUI
             {
                 MessageBox.Show("Mật khẩu không được để trống.");
             }
+            else if (newPass == confirmPass)
+            {
+                MessageBox.Show("Mật khẩu mới trùng với mật khẩu cũ! Vui lòng nhập mật khẩu mới.");
+            }
+            else
+            {
+                if (AccountDAO.UpdatePasswordForAccount(username, confirmPass, newPass))
+                {
+                    MessageBox.Show("Cập nhật mật khẩu thành công!");
+                }
+                else
+                {
+                    MessageBox.Show("Vui lòng điền xác nhận đúng mật khẩu.");
+                }
+            }
+            /*if (newPass != reEnterPass)
+            {
+                MessageBox.Show("Hai mật khẩu mới chưa trùng nhau!");
+            }
+            else if (newPass == "")
+            {
+                MessageBox.Show("Mật khẩu không được để trống.");
+            }
             else
             {
                 if (AccountDAO.UpdatePasswordForAccount(username, confirmPass, newPass))
@@ -54,7 +77,7 @@ namespace GUI
                 {
                     MessageBox.Show("Vui lòng điền đúng mật khẩu.");
                 }
-            }
+            }*/
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

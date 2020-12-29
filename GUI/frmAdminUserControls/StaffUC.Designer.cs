@@ -74,7 +74,7 @@ namespace GUI.frmAdminUserControls
             this.btnAddStaff.Location = new System.Drawing.Point(690, 187);
             this.btnAddStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddStaff.Name = "btnAddStaff";
-            this.btnAddStaff.Size = new System.Drawing.Size(91, 32);
+            this.btnAddStaff.Size = new System.Drawing.Size(90, 40);
             this.btnAddStaff.TabIndex = 20;
             this.btnAddStaff.Text = "Thêm";
             this.btnAddStaff.UseVisualStyleBackColor = true;
@@ -151,7 +151,7 @@ namespace GUI.frmAdminUserControls
             // 
             this.btnSearchStaff.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSearchStaff.Image = global::GUI.Properties.Resources.search_icon;
-            this.btnSearchStaff.Location = new System.Drawing.Point(317, 26);
+            this.btnSearchStaff.Location = new System.Drawing.Point(317, 27);
             this.btnSearchStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearchStaff.Name = "btnSearchStaff";
             this.btnSearchStaff.Size = new System.Drawing.Size(27, 26);
@@ -161,7 +161,8 @@ namespace GUI.frmAdminUserControls
             // 
             // txtSearchStaff
             // 
-            this.txtSearchStaff.Location = new System.Drawing.Point(10, 24);
+            this.txtSearchStaff.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.txtSearchStaff.Location = new System.Drawing.Point(10, 25);
             this.txtSearchStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearchStaff.Name = "txtSearchStaff";
             this.txtSearchStaff.Size = new System.Drawing.Size(301, 30);
@@ -174,7 +175,7 @@ namespace GUI.frmAdminUserControls
             this.btnDeleteStaff.Location = new System.Drawing.Point(933, 187);
             this.btnDeleteStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDeleteStaff.Name = "btnDeleteStaff";
-            this.btnDeleteStaff.Size = new System.Drawing.Size(91, 32);
+            this.btnDeleteStaff.Size = new System.Drawing.Size(90, 40);
             this.btnDeleteStaff.TabIndex = 18;
             this.btnDeleteStaff.Text = "Xóa";
             this.btnDeleteStaff.UseVisualStyleBackColor = true;
@@ -186,7 +187,7 @@ namespace GUI.frmAdminUserControls
             this.btnUpdateStaff.Location = new System.Drawing.Point(811, 187);
             this.btnUpdateStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdateStaff.Name = "btnUpdateStaff";
-            this.btnUpdateStaff.Size = new System.Drawing.Size(91, 32);
+            this.btnUpdateStaff.Size = new System.Drawing.Size(90, 40);
             this.btnUpdateStaff.TabIndex = 19;
             this.btnUpdateStaff.Text = "Sửa";
             this.btnUpdateStaff.UseVisualStyleBackColor = true;
@@ -284,7 +285,7 @@ namespace GUI.frmAdminUserControls
             this.btnShowStaff.Location = new System.Drawing.Point(303, 187);
             this.btnShowStaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShowStaff.Name = "btnShowStaff";
-            this.btnShowStaff.Size = new System.Drawing.Size(88, 34);
+            this.btnShowStaff.Size = new System.Drawing.Size(90, 40);
             this.btnShowStaff.TabIndex = 17;
             this.btnShowStaff.Text = "Xem";
             this.btnShowStaff.UseVisualStyleBackColor = true;
@@ -296,7 +297,7 @@ namespace GUI.frmAdminUserControls
             this.dtgvStaff.AllowUserToDeleteRows = false;
             this.dtgvStaff.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvStaff.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvStaff.Location = new System.Drawing.Point(305, 274);
+            this.dtgvStaff.Location = new System.Drawing.Point(305, 296);
             this.dtgvStaff.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvStaff.Name = "dtgvStaff";
             this.dtgvStaff.ReadOnly = true;
@@ -308,7 +309,7 @@ namespace GUI.frmAdminUserControls
             // 
             this.lblDSNhanVien.AutoSize = true;
             this.lblDSNhanVien.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
-            this.lblDSNhanVien.Location = new System.Drawing.Point(770, 244);
+            this.lblDSNhanVien.Location = new System.Drawing.Point(770, 267);
             this.lblDSNhanVien.Name = "lblDSNhanVien";
             this.lblDSNhanVien.Size = new System.Drawing.Size(321, 26);
             this.lblDSNhanVien.TabIndex = 27;

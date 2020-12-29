@@ -35,10 +35,10 @@
             this.btnInsertScreenType = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblScreenTypeID = new System.Windows.Forms.Label();
+            this.txtScreenTypeID = new System.Windows.Forms.TextBox();
             this.txtScreenTypeName = new System.Windows.Forms.TextBox();
             this.lblScreenTypeName = new System.Windows.Forms.Label();
-            this.txtScreenTypeID = new System.Windows.Forms.TextBox();
-            this.lblScreenTypeID = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgvScreenType = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
@@ -63,7 +63,7 @@
             // btnShowScreenType
             // 
             this.btnShowScreenType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnShowScreenType.Location = new System.Drawing.Point(332, 12);
+            this.btnShowScreenType.Location = new System.Drawing.Point(332, 13);
             this.btnShowScreenType.Margin = new System.Windows.Forms.Padding(4);
             this.btnShowScreenType.Name = "btnShowScreenType";
             this.btnShowScreenType.Size = new System.Drawing.Size(100, 57);
@@ -130,13 +130,33 @@
             this.panel4.Size = new System.Drawing.Size(454, 565);
             this.panel4.TabIndex = 1;
             // 
+            // lblScreenTypeID
+            // 
+            this.lblScreenTypeID.AutoSize = true;
+            this.lblScreenTypeID.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lblScreenTypeID.Location = new System.Drawing.Point(28, 23);
+            this.lblScreenTypeID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblScreenTypeID.Name = "lblScreenTypeID";
+            this.lblScreenTypeID.Size = new System.Drawing.Size(178, 24);
+            this.lblScreenTypeID.TabIndex = 0;
+            this.lblScreenTypeID.Text = "Mã loại màn hình:";
+            // 
+            // txtScreenTypeID
+            // 
+            this.txtScreenTypeID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtScreenTypeID.Location = new System.Drawing.Point(214, 17);
+            this.txtScreenTypeID.Margin = new System.Windows.Forms.Padding(4);
+            this.txtScreenTypeID.Name = "txtScreenTypeID";
+            this.txtScreenTypeID.Size = new System.Drawing.Size(223, 30);
+            this.txtScreenTypeID.TabIndex = 1;
+            // 
             // txtScreenTypeName
             // 
             this.txtScreenTypeName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScreenTypeName.Location = new System.Drawing.Point(214, 73);
             this.txtScreenTypeName.Margin = new System.Windows.Forms.Padding(4);
             this.txtScreenTypeName.Name = "txtScreenTypeName";
-            this.txtScreenTypeName.Size = new System.Drawing.Size(209, 30);
+            this.txtScreenTypeName.Size = new System.Drawing.Size(223, 30);
             this.txtScreenTypeName.TabIndex = 1;
             // 
             // lblScreenTypeName
@@ -149,26 +169,6 @@
             this.lblScreenTypeName.Size = new System.Drawing.Size(147, 24);
             this.lblScreenTypeName.TabIndex = 0;
             this.lblScreenTypeName.Text = "Tên màn hình:";
-            // 
-            // txtScreenTypeID
-            // 
-            this.txtScreenTypeID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtScreenTypeID.Location = new System.Drawing.Point(214, 17);
-            this.txtScreenTypeID.Margin = new System.Windows.Forms.Padding(4);
-            this.txtScreenTypeID.Name = "txtScreenTypeID";
-            this.txtScreenTypeID.Size = new System.Drawing.Size(209, 30);
-            this.txtScreenTypeID.TabIndex = 1;
-            // 
-            // lblScreenTypeID
-            // 
-            this.lblScreenTypeID.AutoSize = true;
-            this.lblScreenTypeID.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblScreenTypeID.Location = new System.Drawing.Point(28, 23);
-            this.lblScreenTypeID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblScreenTypeID.Name = "lblScreenTypeID";
-            this.lblScreenTypeID.Size = new System.Drawing.Size(178, 24);
-            this.lblScreenTypeID.TabIndex = 0;
-            this.lblScreenTypeID.Text = "Mã loại màn hình:";
             // 
             // panel3
             // 

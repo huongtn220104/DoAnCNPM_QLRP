@@ -146,14 +146,14 @@
             this.txtSeatsPerRow.Location = new System.Drawing.Point(193, 315);
             this.txtSeatsPerRow.Margin = new System.Windows.Forms.Padding(4);
             this.txtSeatsPerRow.Name = "txtSeatsPerRow";
-            this.txtSeatsPerRow.Size = new System.Drawing.Size(214, 30);
+            this.txtSeatsPerRow.Size = new System.Drawing.Size(232, 30);
             this.txtSeatsPerRow.TabIndex = 1;
             // 
             // lblNumberOfRows
             // 
             this.lblNumberOfRows.AutoSize = true;
             this.lblNumberOfRows.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblNumberOfRows.Location = new System.Drawing.Point(21, 270);
+            this.lblNumberOfRows.Location = new System.Drawing.Point(21, 268);
             this.lblNumberOfRows.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNumberOfRows.Name = "lblNumberOfRows";
             this.lblNumberOfRows.Size = new System.Drawing.Size(136, 24);
@@ -177,14 +177,14 @@
             this.txtNumberOfRows.Location = new System.Drawing.Point(193, 264);
             this.txtNumberOfRows.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumberOfRows.Name = "txtNumberOfRows";
-            this.txtNumberOfRows.Size = new System.Drawing.Size(214, 30);
+            this.txtNumberOfRows.Size = new System.Drawing.Size(232, 30);
             this.txtNumberOfRows.TabIndex = 1;
             // 
             // lblCinemaStatus
             // 
             this.lblCinemaStatus.AutoSize = true;
             this.lblCinemaStatus.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblCinemaStatus.Location = new System.Drawing.Point(21, 220);
+            this.lblCinemaStatus.Location = new System.Drawing.Point(21, 219);
             this.lblCinemaStatus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCinemaStatus.Name = "lblCinemaStatus";
             this.lblCinemaStatus.Size = new System.Drawing.Size(116, 24);
@@ -197,14 +197,14 @@
             this.txtCinemaStatus.Location = new System.Drawing.Point(193, 214);
             this.txtCinemaStatus.Margin = new System.Windows.Forms.Padding(4);
             this.txtCinemaStatus.Name = "txtCinemaStatus";
-            this.txtCinemaStatus.Size = new System.Drawing.Size(214, 30);
+            this.txtCinemaStatus.Size = new System.Drawing.Size(232, 30);
             this.txtCinemaStatus.TabIndex = 1;
             // 
             // lblCinemaSeats
             // 
             this.lblCinemaSeats.AutoSize = true;
             this.lblCinemaSeats.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblCinemaSeats.Location = new System.Drawing.Point(21, 173);
+            this.lblCinemaSeats.Location = new System.Drawing.Point(21, 171);
             this.lblCinemaSeats.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCinemaSeats.Name = "lblCinemaSeats";
             this.lblCinemaSeats.Size = new System.Drawing.Size(130, 24);
@@ -217,7 +217,7 @@
             this.txtCinemaSeats.Location = new System.Drawing.Point(193, 167);
             this.txtCinemaSeats.Margin = new System.Windows.Forms.Padding(4);
             this.txtCinemaSeats.Name = "txtCinemaSeats";
-            this.txtCinemaSeats.Size = new System.Drawing.Size(214, 30);
+            this.txtCinemaSeats.Size = new System.Drawing.Size(232, 30);
             this.txtCinemaSeats.TabIndex = 1;
             // 
             // cboCinemaScreenType
@@ -228,7 +228,7 @@
             this.cboCinemaScreenType.Location = new System.Drawing.Point(193, 125);
             this.cboCinemaScreenType.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboCinemaScreenType.Name = "cboCinemaScreenType";
-            this.cboCinemaScreenType.Size = new System.Drawing.Size(214, 30);
+            this.cboCinemaScreenType.Size = new System.Drawing.Size(232, 30);
             this.cboCinemaScreenType.TabIndex = 1;
             // 
             // txtCinemaName
@@ -237,7 +237,7 @@
             this.txtCinemaName.Location = new System.Drawing.Point(193, 73);
             this.txtCinemaName.Margin = new System.Windows.Forms.Padding(4);
             this.txtCinemaName.Name = "txtCinemaName";
-            this.txtCinemaName.Size = new System.Drawing.Size(214, 30);
+            this.txtCinemaName.Size = new System.Drawing.Size(232, 30);
             this.txtCinemaName.TabIndex = 1;
             // 
             // lblScreenType
@@ -257,7 +257,7 @@
             this.txtCinemaID.Location = new System.Drawing.Point(193, 27);
             this.txtCinemaID.Margin = new System.Windows.Forms.Padding(4);
             this.txtCinemaID.Name = "txtCinemaID";
-            this.txtCinemaID.Size = new System.Drawing.Size(214, 30);
+            this.txtCinemaID.Size = new System.Drawing.Size(232, 30);
             this.txtCinemaID.TabIndex = 1;
             this.txtCinemaID.TextChanged += new System.EventHandler(this.txtCinemaID_TextChanged);
             // 

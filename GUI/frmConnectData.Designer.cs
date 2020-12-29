@@ -50,7 +50,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(612, 65);
+            this.panel1.Size = new System.Drawing.Size(613, 65);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -62,7 +62,7 @@
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(612, 65);
+            this.label1.Size = new System.Drawing.Size(613, 65);
             this.label1.TabIndex = 0;
             this.label1.Text = " Thiết lập kết nối cơ sở dữ liệu";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(612, 324);
+            this.ClientSize = new System.Drawing.Size(613, 330);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.txtUserName);

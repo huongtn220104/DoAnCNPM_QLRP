@@ -12,47 +12,47 @@ namespace GUI
         public frmSeller()
         {
             InitializeComponent();
-            dtpThoiGian.Value = DateTime.Now;
-            LoadMovie(dtpThoiGian.Value);
+            dtmThoiGian.Value = DateTime.Now;
+            LoadMovie(dtmThoiGian.Value);
         }
 
         private void frmSeller_Load(object sender, EventArgs e)
         {
-            LoadMovie(dtpThoiGian.Value);
+            LoadMovie(dtmThoiGian.Value);
             timer1.Start();
         }
 
         private void LoadMovie(DateTime date)
         {
-            cboFilmName.DataSource = MovieDAO.GetListMovieByDate(date);
-            cboFilmName.DisplayMember = "Name";
+            cboPhim.DataSource = MovieDAO.GetListMovieByDate(date);
+            cboPhim.DisplayMember = "Name";
         }
 
-        private void cboFilmName_SelectedIndexChanged(object sender, EventArgs e)
+        private void cboPhim_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cboFilmName.SelectedIndex != -1)
+            if (cboPhim.SelectedIndex != -1)
             {
-                cboFormatFilm.DataSource = null;
+                cboDinhDang.DataSource = null;
                 lvLichChieu.Items.Clear();
-                Movie movie = cboFilmName.SelectedItem as Movie;
-                cboFormatFilm.DataSource = FormatMovieDAO.GetListFormatMovieByMovie(movie.ID);
-                cboFormatFilm.DisplayMember = "ScreenTypeName";
+                Movie movie = cboPhim.SelectedItem as Movie;
+                cboDinhDang.DataSource = FormatMovieDAO.GetListFormatMovieByMovie(movie.ID);
+                cboDinhDang.DisplayMember = "ScreenTypeName";
             }
         }
 
-        private void cboFormatFilm_SelectedIndexChanged(object sender, EventArgs e)
+        private void cboDinhDang_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cboFormatFilm.SelectedIndex != -1)
+            if (cboDinhDang.SelectedIndex != -1)
             {
                 lvLichChieu.Items.Clear();
-                FormatMovie format = cboFormatFilm.SelectedItem as FormatMovie;
+                FormatMovie format = cboDinhDang.SelectedItem as FormatMovie;
                 LoadListShowTimeByFilm(format.ID);
             }
         }
 
         private void LoadListShowTimeByFilm(string formatMovieID)
         {
-            DataTable data = ShowTimesDAO.GetListShowTimeByFormatMovie(formatMovieID, dtpThoiGian.Value);
+            DataTable data = ShowTimesDAO.GetListShowTimeByFormatMovie(formatMovieID, dtmThoiGian.Value);
             //if (data == null) return;
             foreach (DataRow row in data.Rows)
             {
@@ -94,7 +94,7 @@ namespace GUI
             {
                 timer1.Stop();
                 ShowTimes showTimes = lvLichChieu.SelectedItems[0].Tag as ShowTimes;
-                Movie movie = cboFilmName.SelectedItem as Movie;
+                Movie movie = cboPhim.SelectedItem as Movie;
                 frmTheatre frm = new frmTheatre(showTimes, movie);
                 this.Hide();
                 frm.ShowDialog();
@@ -103,9 +103,10 @@ namespace GUI
             }
         }
 
-        private void dtpThoiGian_ValueChanged(object sender, EventArgs e)
+        private void dtmThoiGian_ValueChanged(object sender, EventArgs e)
         {
-            LoadMovie(dtpThoiGian.Value);
+            LoadMovie(dtmThoiGian.Value);
         }
+
     }
 }

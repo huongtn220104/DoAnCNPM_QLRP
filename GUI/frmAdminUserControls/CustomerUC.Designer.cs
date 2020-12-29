@@ -60,6 +60,7 @@
             // 
             // txtSearchCus
             // 
+            this.txtSearchCus.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txtSearchCus.Location = new System.Drawing.Point(10, 25);
             this.txtSearchCus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearchCus.Name = "txtSearchCus";
@@ -70,10 +71,10 @@
             // btnDeleteCustomer
             // 
             this.btnDeleteCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteCustomer.Location = new System.Drawing.Point(913, 190);
+            this.btnDeleteCustomer.Location = new System.Drawing.Point(913, 192);
             this.btnDeleteCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDeleteCustomer.Name = "btnDeleteCustomer";
-            this.btnDeleteCustomer.Size = new System.Drawing.Size(91, 32);
+            this.btnDeleteCustomer.Size = new System.Drawing.Size(90, 40);
             this.btnDeleteCustomer.TabIndex = 17;
             this.btnDeleteCustomer.Text = "Xóa";
             this.btnDeleteCustomer.UseVisualStyleBackColor = true;
@@ -82,10 +83,10 @@
             // btnUpdateCustomer
             // 
             this.btnUpdateCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateCustomer.Location = new System.Drawing.Point(793, 189);
+            this.btnUpdateCustomer.Location = new System.Drawing.Point(793, 191);
             this.btnUpdateCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdateCustomer.Name = "btnUpdateCustomer";
-            this.btnUpdateCustomer.Size = new System.Drawing.Size(91, 32);
+            this.btnUpdateCustomer.Size = new System.Drawing.Size(90, 40);
             this.btnUpdateCustomer.TabIndex = 18;
             this.btnUpdateCustomer.Text = "Sửa";
             this.btnUpdateCustomer.UseVisualStyleBackColor = true;
@@ -94,10 +95,10 @@
             // btnAddCustomer
             // 
             this.btnAddCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCustomer.Location = new System.Drawing.Point(670, 188);
+            this.btnAddCustomer.Location = new System.Drawing.Point(670, 190);
             this.btnAddCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.Size = new System.Drawing.Size(91, 32);
+            this.btnAddCustomer.Size = new System.Drawing.Size(90, 40);
             this.btnAddCustomer.TabIndex = 19;
             this.btnAddCustomer.Text = "Thêm";
             this.btnAddCustomer.UseVisualStyleBackColor = true;
@@ -273,10 +274,10 @@
             // btnShowCustomer
             // 
             this.btnShowCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShowCustomer.Location = new System.Drawing.Point(308, 187);
+            this.btnShowCustomer.Location = new System.Drawing.Point(305, 191);
             this.btnShowCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShowCustomer.Name = "btnShowCustomer";
-            this.btnShowCustomer.Size = new System.Drawing.Size(91, 32);
+            this.btnShowCustomer.Size = new System.Drawing.Size(90, 40);
             this.btnShowCustomer.TabIndex = 15;
             this.btnShowCustomer.Text = "Xem";
             this.btnShowCustomer.UseVisualStyleBackColor = true;
@@ -288,7 +289,7 @@
             this.dtgvCustomer.AllowUserToDeleteRows = false;
             this.dtgvCustomer.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvCustomer.Location = new System.Drawing.Point(305, 287);
+            this.dtgvCustomer.Location = new System.Drawing.Point(305, 291);
             this.dtgvCustomer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgvCustomer.Name = "dtgvCustomer";
             this.dtgvCustomer.ReadOnly = true;
@@ -301,7 +302,7 @@
             // 
             this.btnSearchCus.BackgroundImage = global::GUI.Properties.Resources.search_icon;
             this.btnSearchCus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSearchCus.Location = new System.Drawing.Point(317, 28);
+            this.btnSearchCus.Location = new System.Drawing.Point(317, 27);
             this.btnSearchCus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearchCus.Name = "btnSearchCus";
             this.btnSearchCus.Size = new System.Drawing.Size(27, 26);
@@ -313,7 +314,7 @@
             // 
             this.lblDSKhachHang.AutoSize = true;
             this.lblDSKhachHang.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
-            this.lblDSKhachHang.Location = new System.Drawing.Point(737, 258);
+            this.lblDSKhachHang.Location = new System.Drawing.Point(737, 262);
             this.lblDSKhachHang.Name = "lblDSKhachHang";
             this.lblDSKhachHang.Size = new System.Drawing.Size(340, 26);
             this.lblDSKhachHang.TabIndex = 22;
@@ -324,7 +325,7 @@
             this.groupBox1.Controls.Add(this.btnSearchCus);
             this.groupBox1.Controls.Add(this.txtSearchCus);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.groupBox1.Location = new System.Drawing.Point(1166, 187);
+            this.groupBox1.Location = new System.Drawing.Point(1166, 183);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(350, 70);
             this.groupBox1.TabIndex = 23;

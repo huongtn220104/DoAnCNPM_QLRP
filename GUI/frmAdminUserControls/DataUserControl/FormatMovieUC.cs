@@ -166,5 +166,20 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteFormat(formatID);
             LoadFormatMovieList();
         }
+
+        private void btnFormat_Click(object sender, EventArgs e)
+        {
+                string movieName = txtSearchFormat.Text;
+                formatList.DataSource = FormatMovieDAO.SearchFormatByMovieName(movieName);
+        }
+        private void txtSearchFormat_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnFormat.PerformClick();
+                e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
+            }
+        }
+
     }
 }

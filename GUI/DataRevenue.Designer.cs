@@ -449,7 +449,7 @@ namespace GUI {
                 base.Columns.Add(this.columnSoVeDaBan);
                 this.columnTienBanVe = new global::System.Data.DataColumn("TienBanVe", typeof(decimal), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTienBanVe);
-                this.columnNgayChieu.ReadOnly = true;
+     
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

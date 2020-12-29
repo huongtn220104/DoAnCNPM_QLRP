@@ -297,7 +297,7 @@ namespace GUI
                 ticket.Type = 3;
 
                 float oldPrice = ticket.Price;
-                ticket.Price = 0.7f * ticketPrice;
+                ticket.Price = 0.5f * ticketPrice;
                 displayPrice = ticket.Price;
                 total = total + ticket.Price - oldPrice;
                 payment = total - discount;

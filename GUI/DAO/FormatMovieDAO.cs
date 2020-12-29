@@ -81,5 +81,10 @@ namespace GUI.DAO
 			int result = DataProvider.ExecuteNonQuery("DELETE dbo.DinhDangPhim WHERE id = '" + id + "'");
             return result > 0;
         }
+        public static DataTable SearchFormatByMovieName(string movieName)
+        {
+            DataTable data = DataProvider.ExecuteQuery("EXEC USP_SearchFormatByMovieName @tenPhim ", new object[] { movieName });
+            return data;
+        }
     }
 }

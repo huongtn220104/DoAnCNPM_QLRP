@@ -34,6 +34,7 @@
             this.btnAdmin = new System.Windows.Forms.Button();
             this.lblAccountInfo = new System.Windows.Forms.Label();
             this.btnChangePassword = new System.Windows.Forms.Button();
+            this.lblCauChao = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(438, 69);
+            this.panel1.Size = new System.Drawing.Size(472, 69);
             this.panel1.TabIndex = 0;
             // 
             // labelX
@@ -55,14 +56,14 @@
             this.labelX.Location = new System.Drawing.Point(0, 0);
             this.labelX.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelX.Name = "labelX";
-            this.labelX.Size = new System.Drawing.Size(438, 69);
+            this.labelX.Size = new System.Drawing.Size(472, 69);
             this.labelX.TabIndex = 0;
-            this.labelX.Text = "Dashboard";
+            this.labelX.Text = " Dashboard";
             this.labelX.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnSeller
             // 
-            this.btnSeller.Location = new System.Drawing.Point(109, 239);
+            this.btnSeller.Location = new System.Drawing.Point(115, 263);
             this.btnSeller.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnSeller.Name = "btnSeller";
             this.btnSeller.Size = new System.Drawing.Size(217, 91);
@@ -73,7 +74,7 @@
             // 
             // btnAdmin
             // 
-            this.btnAdmin.Location = new System.Drawing.Point(109, 132);
+            this.btnAdmin.Location = new System.Drawing.Point(115, 162);
             this.btnAdmin.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnAdmin.Name = "btnAdmin";
             this.btnAdmin.Size = new System.Drawing.Size(217, 91);
@@ -85,16 +86,16 @@
             // lblAccountInfo
             // 
             this.lblAccountInfo.AutoSize = true;
-            this.lblAccountInfo.Location = new System.Drawing.Point(8, 87);
+            this.lblAccountInfo.Location = new System.Drawing.Point(8, 123);
             this.lblAccountInfo.Name = "lblAccountInfo";
-            this.lblAccountInfo.Size = new System.Drawing.Size(147, 25);
+            this.lblAccountInfo.Size = new System.Drawing.Size(142, 25);
             this.lblAccountInfo.TabIndex = 2;
-            this.lblAccountInfo.Text = "Tên tài khoản : ";
+            this.lblAccountInfo.Text = "Tên tài khoản: ";
             // 
             // btnChangePassword
             // 
             this.btnChangePassword.AutoSize = true;
-            this.btnChangePassword.Location = new System.Drawing.Point(13, 352);
+            this.btnChangePassword.Location = new System.Drawing.Point(13, 372);
             this.btnChangePassword.Name = "btnChangePassword";
             this.btnChangePassword.Size = new System.Drawing.Size(161, 35);
             this.btnChangePassword.TabIndex = 3;
@@ -102,12 +103,23 @@
             this.btnChangePassword.UseVisualStyleBackColor = true;
             this.btnChangePassword.Click += new System.EventHandler(this.btnAccountSettings_Click);
             // 
+            // lblCauChao
+            // 
+            this.lblCauChao.AutoSize = true;
+            this.lblCauChao.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            this.lblCauChao.Location = new System.Drawing.Point(8, 82);
+            this.lblCauChao.Name = "lblCauChao";
+            this.lblCauChao.Size = new System.Drawing.Size(462, 26);
+            this.lblCauChao.TabIndex = 4;
+            this.lblCauChao.Text = "Chào mừng bạn đã đăng nhập thành công!";
+            // 
             // frmDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(438, 401);
+            this.ClientSize = new System.Drawing.Size(472, 416);
+            this.Controls.Add(this.lblCauChao);
             this.Controls.Add(this.btnChangePassword);
             this.Controls.Add(this.lblAccountInfo);
             this.Controls.Add(this.btnAdmin);
@@ -115,6 +127,8 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.MaximumSize = new System.Drawing.Size(490, 463);
+            this.MinimumSize = new System.Drawing.Size(490, 463);
             this.Name = "frmDashBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bảng Điều Khiển";
@@ -132,6 +146,7 @@
         private System.Windows.Forms.Label labelX;
         private System.Windows.Forms.Label lblAccountInfo;
 		private System.Windows.Forms.Button btnChangePassword;
-	}
+        private System.Windows.Forms.Label lblCauChao;
+    }
 }
 

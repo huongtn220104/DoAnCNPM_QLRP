@@ -83,7 +83,7 @@
             // 
             this.btnSearchAccount.BackgroundImage = global::GUI.Properties.Resources.search_icon;
             this.btnSearchAccount.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSearchAccount.Location = new System.Drawing.Point(317, 28);
+            this.btnSearchAccount.Location = new System.Drawing.Point(317, 27);
             this.btnSearchAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSearchAccount.Name = "btnSearchAccount";
             this.btnSearchAccount.Size = new System.Drawing.Size(27, 26);
@@ -94,7 +94,7 @@
             // btnResetPass
             // 
             this.btnResetPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResetPass.Location = new System.Drawing.Point(997, 111);
+            this.btnResetPass.Location = new System.Drawing.Point(1023, 111);
             this.btnResetPass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnResetPass.Name = "btnResetPass";
             this.btnResetPass.Size = new System.Drawing.Size(136, 49);
@@ -109,7 +109,7 @@
             this.btnDeleteAccount.Location = new System.Drawing.Point(924, 175);
             this.btnDeleteAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDeleteAccount.Name = "btnDeleteAccount";
-            this.btnDeleteAccount.Size = new System.Drawing.Size(91, 32);
+            this.btnDeleteAccount.Size = new System.Drawing.Size(90, 40);
             this.btnDeleteAccount.TabIndex = 25;
             this.btnDeleteAccount.Text = "Xóa";
             this.btnDeleteAccount.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
             this.btnUpdateAccount.Location = new System.Drawing.Point(808, 175);
             this.btnUpdateAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnUpdateAccount.Name = "btnUpdateAccount";
-            this.btnUpdateAccount.Size = new System.Drawing.Size(91, 32);
+            this.btnUpdateAccount.Size = new System.Drawing.Size(90, 40);
             this.btnUpdateAccount.TabIndex = 26;
             this.btnUpdateAccount.Text = "Sửa";
             this.btnUpdateAccount.UseVisualStyleBackColor = true;
@@ -133,7 +133,7 @@
             this.btnInsertAccount.Location = new System.Drawing.Point(680, 175);
             this.btnInsertAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnInsertAccount.Name = "btnInsertAccount";
-            this.btnInsertAccount.Size = new System.Drawing.Size(91, 32);
+            this.btnInsertAccount.Size = new System.Drawing.Size(90, 40);
             this.btnInsertAccount.TabIndex = 27;
             this.btnInsertAccount.Text = "Thêm";
             this.btnInsertAccount.UseVisualStyleBackColor = true;
@@ -145,7 +145,7 @@
             this.btnShowAccount.Location = new System.Drawing.Point(305, 175);
             this.btnShowAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnShowAccount.Name = "btnShowAccount";
-            this.btnShowAccount.Size = new System.Drawing.Size(91, 32);
+            this.btnShowAccount.Size = new System.Drawing.Size(90, 40);
             this.btnShowAccount.TabIndex = 23;
             this.btnShowAccount.Text = "Xem";
             this.btnShowAccount.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             this.grpAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grpAccount.Name = "grpAccount";
             this.grpAccount.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.grpAccount.Size = new System.Drawing.Size(670, 133);
+            this.grpAccount.Size = new System.Drawing.Size(682, 133);
             this.grpAccount.TabIndex = 22;
             this.grpAccount.TabStop = false;
             this.grpAccount.Text = "Thông tin tài khoản";
@@ -275,7 +275,7 @@
             this.dtgvAccount.AllowUserToDeleteRows = false;
             this.dtgvAccount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvAccount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvAccount.Location = new System.Drawing.Point(305, 251);
+            this.dtgvAccount.Location = new System.Drawing.Point(305, 279);
             this.dtgvAccount.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvAccount.Name = "dtgvAccount";
             this.dtgvAccount.ReadOnly = true;
@@ -287,7 +287,7 @@
             // 
             this.lblDSTaiKhoan.AutoSize = true;
             this.lblDSTaiKhoan.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
-            this.lblDSTaiKhoan.Location = new System.Drawing.Point(791, 222);
+            this.lblDSTaiKhoan.Location = new System.Drawing.Point(791, 251);
             this.lblDSTaiKhoan.Name = "lblDSTaiKhoan";
             this.lblDSTaiKhoan.Size = new System.Drawing.Size(220, 26);
             this.lblDSTaiKhoan.TabIndex = 29;

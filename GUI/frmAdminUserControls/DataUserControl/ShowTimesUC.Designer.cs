@@ -85,7 +85,7 @@
             this.gpbTimTheoTenPhim.Controls.Add(this.btnSearchShowtime);
             this.gpbTimTheoTenPhim.Controls.Add(this.txtSearchShowtime);
             this.gpbTimTheoTenPhim.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.gpbTimTheoTenPhim.Location = new System.Drawing.Point(595, 0);
+            this.gpbTimTheoTenPhim.Location = new System.Drawing.Point(778, 1);
             this.gpbTimTheoTenPhim.Name = "gpbTimTheoTenPhim";
             this.gpbTimTheoTenPhim.Size = new System.Drawing.Size(351, 60);
             this.gpbTimTheoTenPhim.TabIndex = 8;
@@ -105,6 +105,7 @@
             // 
             // txtSearchShowtime
             // 
+            this.txtSearchShowtime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearchShowtime.Location = new System.Drawing.Point(6, 23);
             this.txtSearchShowtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSearchShowtime.Multiline = true;
@@ -220,7 +221,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(383, 98);
+            this.groupBox2.Size = new System.Drawing.Size(393, 98);
             this.groupBox2.TabIndex = 28;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thời gian chiếu";
@@ -231,7 +232,7 @@
             this.dtmShowtimeTime.CustomFormat = "dd/MM/yyyy";
             this.dtmShowtimeTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtmShowtimeTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dtmShowtimeTime.Location = new System.Drawing.Point(147, 55);
+            this.dtmShowtimeTime.Location = new System.Drawing.Point(160, 55);
             this.dtmShowtimeTime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtmShowtimeTime.Name = "dtmShowtimeTime";
             this.dtmShowtimeTime.ShowUpDown = true;
@@ -254,7 +255,7 @@
             this.dtmShowtimeDate.CustomFormat = "dd/MM/yyyy";
             this.dtmShowtimeDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtmShowtimeDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtmShowtimeDate.Location = new System.Drawing.Point(147, 20);
+            this.dtmShowtimeDate.Location = new System.Drawing.Point(160, 20);
             this.dtmShowtimeDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtmShowtimeDate.Name = "dtmShowtimeDate";
             this.dtmShowtimeDate.Size = new System.Drawing.Size(216, 30);
@@ -279,7 +280,7 @@
             this.cboFormatID_Showtime.Location = new System.Drawing.Point(161, 68);
             this.cboFormatID_Showtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboFormatID_Showtime.Name = "cboFormatID_Showtime";
-            this.cboFormatID_Showtime.Size = new System.Drawing.Size(235, 30);
+            this.cboFormatID_Showtime.Size = new System.Drawing.Size(245, 30);
             this.cboFormatID_Showtime.TabIndex = 26;
             this.cboFormatID_Showtime.SelectedIndexChanged += new System.EventHandler(this.cboFormatID_Showtime_SelectedIndexChanged);
             // 
@@ -301,7 +302,7 @@
             this.cboCinemaID_Showtime.Location = new System.Drawing.Point(161, 191);
             this.cboCinemaID_Showtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cboCinemaID_Showtime.Name = "cboCinemaID_Showtime";
-            this.cboCinemaID_Showtime.Size = new System.Drawing.Size(235, 30);
+            this.cboCinemaID_Showtime.Size = new System.Drawing.Size(245, 30);
             this.cboCinemaID_Showtime.TabIndex = 27;
             // 
             // label2
@@ -361,7 +362,7 @@
             this.txtScreenTypeName_Showtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtScreenTypeName_Showtime.Name = "txtScreenTypeName_Showtime";
             this.txtScreenTypeName_Showtime.ReadOnly = true;
-            this.txtScreenTypeName_Showtime.Size = new System.Drawing.Size(235, 30);
+            this.txtScreenTypeName_Showtime.Size = new System.Drawing.Size(245, 30);
             this.txtScreenTypeName_Showtime.TabIndex = 16;
             // 
             // txtMovieName_Showtime
@@ -371,7 +372,7 @@
             this.txtMovieName_Showtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMovieName_Showtime.Name = "txtMovieName_Showtime";
             this.txtMovieName_Showtime.ReadOnly = true;
-            this.txtMovieName_Showtime.Size = new System.Drawing.Size(235, 30);
+            this.txtMovieName_Showtime.Size = new System.Drawing.Size(245, 30);
             this.txtMovieName_Showtime.TabIndex = 17;
             // 
             // txtTicketPrice_Showtime
@@ -380,7 +381,7 @@
             this.txtTicketPrice_Showtime.Location = new System.Drawing.Point(161, 367);
             this.txtTicketPrice_Showtime.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTicketPrice_Showtime.Name = "txtTicketPrice_Showtime";
-            this.txtTicketPrice_Showtime.Size = new System.Drawing.Size(235, 30);
+            this.txtTicketPrice_Showtime.Size = new System.Drawing.Size(245, 30);
             this.txtTicketPrice_Showtime.TabIndex = 18;
             // 
             // txtShowtimeID
@@ -389,7 +390,7 @@
             this.txtShowtimeID.Location = new System.Drawing.Point(161, 12);
             this.txtShowtimeID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtShowtimeID.Name = "txtShowtimeID";
-            this.txtShowtimeID.Size = new System.Drawing.Size(235, 30);
+            this.txtShowtimeID.Size = new System.Drawing.Size(245, 30);
             this.txtShowtimeID.TabIndex = 19;
             this.txtShowtimeID.TextChanged += new System.EventHandler(this.txtShowtimeID_TextChanged);
             // 

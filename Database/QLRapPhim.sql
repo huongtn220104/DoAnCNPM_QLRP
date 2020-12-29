@@ -143,6 +143,7 @@ CREATE TABLE Ve
 GO
 
 --Trigger
+
 CREATE TRIGGER UTG_INSERT_CheckDateLichChieu
 ON dbo.LichChieu
 FOR INSERT, UPDATE
@@ -164,6 +165,44 @@ BEGIN
     END
 END
 GO
+
+
+ALTER TRIGGER UTG_INSERT_CheckFormatMovie
+ON dbo.DinhDangPhim
+FOR INSERT, UPDATE
+AS
+BEGIN
+	DECLARE @idPhim VARCHAR(100), @count int, @idManHinh VARCHAR(100)
+
+	SELECT @idManHinh=idLoaiManHinh,@idPhim=idPhim from INSERTED
+
+	SELECT @count=COUNT(*) from dbo.DinhDangPhim DD where @idPhim=DD.idPhim AND @idManHinh=DD.idLoaiManHinh
+	IF (@count>1)
+	BEGIN
+		ROLLBACK TRAN
+		Raiserror('Phim đã có hỗ trợ định dạng màn hình này',16,1)
+		Return
+    END
+END
+GO
+
+CREATE TRIGGER UTG_INSERT_CheckAccount
+ON dbo.TaiKhoan
+FOR INSERT, UPDATE
+AS
+BEGIN
+	DECLARE @idNhanVien VARCHAR(100), @count int
+	SELECT @idNhanVien=idNV from INSERTED 
+	SELECT @count=COUNT(*) FROM TaiKhoan WHERE @idNhanVien=idNV
+	IF (@count>1)
+	BEGIN
+		ROLLBACK TRAN
+		Raiserror('Một Nhân Viên chỉ có duy nhất một Tài Khoản',16,1)
+		Return
+    END
+END
+GO
+
 
 CREATE TRIGGER UTG_CheckTimeLichChieu
 ON dbo.LichChieu
@@ -394,6 +433,14 @@ BEGIN
 END
 GO
 
+CREATE PROC USP_SearchFormatByMovieName
+@tenPhim NVARCHAR(100)
+AS
+BEGIN
+	SELECT DD.id AS [Mã định dạng], P.id AS [Mã Phim], P.TenPhim AS [Tên phim], MH.id AS [Mã màn hình], MH.TenMH AS [Tên màn hình]
+	FROM dbo.DinhDangPhim AS DD, Phim AS P, dbo.LoaiManHinh AS MH
+	WHERE DD.idPhim = P.id AND DD.idLoaiManHinh = MH.id AND dbo.fuConvertToUnsign1(P.TenPhim) LIKE N'%' + dbo.fuConvertToUnsign1(@tenPhim) + N'%'
+END
 
 --LỊCH CHIẾU
 CREATE PROC USP_GetListShowTimesByFormatMovie

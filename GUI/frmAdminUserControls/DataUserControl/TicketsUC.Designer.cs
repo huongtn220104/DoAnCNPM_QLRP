@@ -150,7 +150,7 @@
             // 
             this.lblDanhSachLichChieu.AutoSize = true;
             this.lblDanhSachLichChieu.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDanhSachLichChieu.Location = new System.Drawing.Point(258, 21);
+            this.lblDanhSachLichChieu.Location = new System.Drawing.Point(258, 7);
             this.lblDanhSachLichChieu.Name = "lblDanhSachLichChieu";
             this.lblDanhSachLichChieu.Size = new System.Drawing.Size(223, 26);
             this.lblDanhSachLichChieu.TabIndex = 10;
@@ -166,7 +166,7 @@
             this.lsvAllListShowTimes.FullRowSelect = true;
             this.lsvAllListShowTimes.GridLines = true;
             this.lsvAllListShowTimes.HideSelection = false;
-            this.lsvAllListShowTimes.Location = new System.Drawing.Point(7, 50);
+            this.lsvAllListShowTimes.Location = new System.Drawing.Point(6, 38);
             this.lsvAllListShowTimes.Name = "lsvAllListShowTimes";
             this.lsvAllListShowTimes.Size = new System.Drawing.Size(679, 521);
             this.lsvAllListShowTimes.TabIndex = 9;

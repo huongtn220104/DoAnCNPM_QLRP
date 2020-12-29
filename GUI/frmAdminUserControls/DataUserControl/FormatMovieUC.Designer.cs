@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.gpbTimTheoTenPhim = new System.Windows.Forms.GroupBox();
+            this.btnFormat = new System.Windows.Forms.Button();
+            this.txtSearchFormat = new System.Windows.Forms.TextBox();
             this.btnShowFormat = new System.Windows.Forms.Button();
             this.btnUpdateFormat = new System.Windows.Forms.Button();
             this.btnDeleteFormat = new System.Windows.Forms.Button();
@@ -47,6 +50,7 @@
             this.txtFormat_MovieName = new System.Windows.Forms.TextBox();
             this.txtFormatID = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
+            this.gpbTimTheoTenPhim.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFormat)).BeginInit();
             this.panel3.SuspendLayout();
@@ -54,6 +58,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.gpbTimTheoTenPhim);
             this.panel1.Controls.Add(this.btnShowFormat);
             this.panel1.Controls.Add(this.btnUpdateFormat);
             this.panel1.Controls.Add(this.btnDeleteFormat);
@@ -64,6 +69,40 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1548, 64);
             this.panel1.TabIndex = 0;
+            // 
+            // gpbTimTheoTenPhim
+            // 
+            this.gpbTimTheoTenPhim.Controls.Add(this.btnFormat);
+            this.gpbTimTheoTenPhim.Controls.Add(this.txtSearchFormat);
+            this.gpbTimTheoTenPhim.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.gpbTimTheoTenPhim.Location = new System.Drawing.Point(745, -1);
+            this.gpbTimTheoTenPhim.Name = "gpbTimTheoTenPhim";
+            this.gpbTimTheoTenPhim.Size = new System.Drawing.Size(351, 60);
+            this.gpbTimTheoTenPhim.TabIndex = 12;
+            this.gpbTimTheoTenPhim.TabStop = false;
+            this.gpbTimTheoTenPhim.Text = "Tìm theo tên phim";
+            // 
+            // btnFormat
+            // 
+            this.btnFormat.Image = global::GUI.Properties.Resources.search_icon;
+            this.btnFormat.Location = new System.Drawing.Point(318, 23);
+            this.btnFormat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnFormat.Name = "btnFormat";
+            this.btnFormat.Size = new System.Drawing.Size(27, 27);
+            this.btnFormat.TabIndex = 7;
+            this.btnFormat.UseVisualStyleBackColor = true;
+            this.btnFormat.Click += new System.EventHandler(this.btnFormat_Click);
+            // 
+            // txtSearchFormat
+            // 
+            this.txtSearchFormat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchFormat.Location = new System.Drawing.Point(6, 23);
+            this.txtSearchFormat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtSearchFormat.Multiline = true;
+            this.txtSearchFormat.Name = "txtSearchFormat";
+            this.txtSearchFormat.Size = new System.Drawing.Size(300, 27);
+            this.txtSearchFormat.TabIndex = 6;
+            this.txtSearchFormat.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchFormat_KeyDown);
             // 
             // btnShowFormat
             // 
@@ -162,7 +201,7 @@
             this.cboFormat_ScreenID.FormattingEnabled = true;
             this.cboFormat_ScreenID.Location = new System.Drawing.Point(170, 172);
             this.cboFormat_ScreenID.Name = "cboFormat_ScreenID";
-            this.cboFormat_ScreenID.Size = new System.Drawing.Size(249, 30);
+            this.cboFormat_ScreenID.Size = new System.Drawing.Size(260, 30);
             this.cboFormat_ScreenID.TabIndex = 20;
             this.cboFormat_ScreenID.SelectedIndexChanged += new System.EventHandler(this.cboFormat_ScreenID_SelectedValueChanged);
             // 
@@ -183,7 +222,7 @@
             this.cboFormat_MovieID.FormattingEnabled = true;
             this.cboFormat_MovieID.Location = new System.Drawing.Point(170, 78);
             this.cboFormat_MovieID.Name = "cboFormat_MovieID";
-            this.cboFormat_MovieID.Size = new System.Drawing.Size(249, 30);
+            this.cboFormat_MovieID.Size = new System.Drawing.Size(260, 30);
             this.cboFormat_MovieID.TabIndex = 21;
             this.cboFormat_MovieID.SelectedIndexChanged += new System.EventHandler(this.cboFormat_MovieID_SelectedValueChanged);
             // 
@@ -223,7 +262,7 @@
             this.txtFormat_ScreenName.Location = new System.Drawing.Point(170, 209);
             this.txtFormat_ScreenName.Name = "txtFormat_ScreenName";
             this.txtFormat_ScreenName.ReadOnly = true;
-            this.txtFormat_ScreenName.Size = new System.Drawing.Size(249, 30);
+            this.txtFormat_ScreenName.Size = new System.Drawing.Size(260, 30);
             this.txtFormat_ScreenName.TabIndex = 12;
             // 
             // lblFormatID
@@ -242,7 +281,7 @@
             this.txtFormat_MovieName.Location = new System.Drawing.Point(170, 111);
             this.txtFormat_MovieName.Name = "txtFormat_MovieName";
             this.txtFormat_MovieName.ReadOnly = true;
-            this.txtFormat_MovieName.Size = new System.Drawing.Size(249, 30);
+            this.txtFormat_MovieName.Size = new System.Drawing.Size(260, 30);
             this.txtFormat_MovieName.TabIndex = 13;
             // 
             // txtFormatID
@@ -250,7 +289,7 @@
             this.txtFormatID.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.txtFormatID.Location = new System.Drawing.Point(170, 16);
             this.txtFormatID.Name = "txtFormatID";
-            this.txtFormatID.Size = new System.Drawing.Size(249, 30);
+            this.txtFormatID.Size = new System.Drawing.Size(260, 30);
             this.txtFormatID.TabIndex = 14;
             this.txtFormatID.TextChanged += new System.EventHandler(this.txtFormatID_TextChanged);
             // 
@@ -263,6 +302,8 @@
             this.Name = "FormatMovieUC";
             this.Size = new System.Drawing.Size(1548, 638);
             this.panel1.ResumeLayout(false);
+            this.gpbTimTheoTenPhim.ResumeLayout(false);
+            this.gpbTimTheoTenPhim.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvFormat)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -291,5 +332,8 @@
         private System.Windows.Forms.TextBox txtFormat_MovieName;
         private System.Windows.Forms.TextBox txtFormatID;
         private System.Windows.Forms.DataGridView dtgvFormat;
+        private System.Windows.Forms.GroupBox gpbTimTheoTenPhim;
+        private System.Windows.Forms.Button btnFormat;
+        private System.Windows.Forms.TextBox txtSearchFormat;
     }
 }
