@@ -204,6 +204,42 @@ END
 GO
 
 
+
+CREATE TRIGGER UTG_INSERT_CheckDateStartEnd
+ON dbo.Phim
+FOR INSERT, UPDATE
+AS
+BEGIN
+	DECLARE @NgayKC datetime, @NgayKT datetime
+	SELECT @NgayKC=NgayKhoiChieu  , @NgayKT=NgayKetThuc FROM INSERTED
+	IF (@NgayKC>@NgayKT)
+	BEGIN
+		ROLLBACK TRAN
+		Raiserror('Ngày Khởi Chiếu lớn hơn Ngày Kết Thúc của bộ phim',16,1)
+		Return
+    END
+END
+GO
+
+
+ALTER TRIGGER UTG_INSERT_CheckTypeAccount
+ON dbo.TaiKhoan
+FOR INSERT, UPDATE
+AS
+BEGIN
+	DECLARE @idNhanVien VARCHAR(100), @isTK int
+	SELECT @idNhanVien=idNV from INSERTED 
+	SELECT @isTK=COUNT(*) FROM TaiKhoan TK, NhanVien NV WHERE @idNhanVien=TK.idNV AND @idNhanVien=NV.id AND (NV.ChucVu= N'Quản trị hệ thống' OR NV.ChucVu=N'Nhân viên bán vé')
+	IF (@isTK=0)
+	BEGIN
+		ROLLBACK TRAN
+		Raiserror('Chức Vụ không được tạo Tài Khoản',16,1)
+		Return
+    END
+END
+GO
+
+
 CREATE TRIGGER UTG_CheckTimeLichChieu
 ON dbo.LichChieu
 FOR INSERT, UPDATE
@@ -288,7 +324,7 @@ CREATE PROC USP_ResetPasswordtAccount
 AS
 BEGIN
 	UPDATE dbo.TaiKhoan 
-	SET Pass = '5512317111114510840231031535810616566202691' 
+	SET Pass = '5512317111114510840231031535810616566202691' --Mật khẩu bằng 1
 	WHERE UserName = @username
 END
 GO
@@ -319,16 +355,40 @@ GO
 CREATE FUNCTION [dbo].[fuConvertToUnsign1] ( @strInput NVARCHAR(4000) ) RETURNS NVARCHAR(4000) AS BEGIN IF @strInput IS NULL RETURN @strInput IF @strInput = '' RETURN @strInput DECLARE @RT NVARCHAR(4000) DECLARE @SIGN_CHARS NCHAR(136) DECLARE @UNSIGN_CHARS NCHAR (136) SET @SIGN_CHARS = N'ăâđêôơưàảãạáằẳẵặắầẩẫậấèẻẽẹéềểễệế ìỉĩịíòỏõọóồổỗộốờởỡợớùủũụúừửữựứỳỷỹỵý ĂÂĐÊÔƠƯÀẢÃẠÁẰẲẴẶẮẦẨẪẬẤÈẺẼẸÉỀỂỄỆẾÌỈĨỊÍ ÒỎÕỌÓỒỔỖỘỐỜỞỠỢỚÙỦŨỤÚỪỬỮỰỨỲỶỸỴÝ' +NCHAR(272)+ NCHAR(208) SET @UNSIGN_CHARS = N'aadeoouaaaaaaaaaaaaaaaeeeeeeeeee iiiiiooooooooooooooouuuuuuuuuuyyyyy AADEOOUAAAAAAAAAAAAAAAEEEEEEEEEEIIIII OOOOOOOOOOOOOOOUUUUUUUUUUYYYYYDD' DECLARE @COUNTER int DECLARE @COUNTER1 int SET @COUNTER = 1 WHILE (@COUNTER <=LEN(@strInput)) BEGIN SET @COUNTER1 = 1 WHILE (@COUNTER1 <=LEN(@SIGN_CHARS)+1) BEGIN IF UNICODE(SUBSTRING(@SIGN_CHARS, @COUNTER1,1)) = UNICODE(SUBSTRING(@strInput,@COUNTER ,1) ) BEGIN IF @COUNTER=1 SET @strInput = SUBSTRING(@UNSIGN_CHARS, @COUNTER1,1) + SUBSTRING(@strInput, @COUNTER+1,LEN(@strInput)-1) ELSE SET @strInput = SUBSTRING(@strInput, 1, @COUNTER-1) +SUBSTRING(@UNSIGN_CHARS, @COUNTER1,1) + SUBSTRING(@strInput, @COUNTER+1,LEN(@strInput)- @COUNTER) BREAK END SET @COUNTER1 = @COUNTER1 +1 END SET @COUNTER = @COUNTER +1 END SET @strInput = replace(@strInput,' ','-') RETURN @strInput END
 GO
 
-CREATE PROC USP_GetReportRevenueByMovieAndDate
+ALTER PROC USP_GetReportRevenueByMovieAndDate
 @idMovie VARCHAR(50), @fromDate date, @toDate date
 AS
 BEGIN
-	SELECT P.TenPhim, CONVERT(DATE, LC.ThoiGianChieu) AS NgayChieu, CONVERT(TIME(0),LC.ThoiGianChieu) AS GioChieu, COUNT(V.id) AS SoVeDaBan, SUM(TienBanVe) AS TienBanVe
+	SELECT P.TenPhim, CONVERT(DATE, LC.ThoiGianChieu) AS NgayChieu, CONVERT(TIME(0),LC.ThoiGianChieu) AS GioChieu, COUNT(V.id) AS SoVeDaBan, SUM(TienBanVe) AS TongTien
 	FROM dbo.Ve AS V, dbo.LichChieu AS LC, dbo.DinhDangPhim AS DDP, Phim AS P
 	WHERE V.idLichChieu = LC.id AND LC.idDinhDang = DDP.id AND DDP.idPhim = P.id AND V.TrangThai = 1 AND P.id = @idMovie AND LC.ThoiGianChieu >= @fromDate AND LC.ThoiGianChieu <= @toDate
 	GROUP BY idLichChieu, P.TenPhim, LC.ThoiGianChieu
 END
 GO
+
+
+CREATE PROC USP_GetRevenueByDate
+@fromDate date, @toDate date
+AS
+BEGIN
+	SELECT P.TenPhim AS [Tên phim], CONVERT(DATE, P.NgayKhoiChieu) AS [Ngày khởi chiếu], CONVERT(DATE,P.NgayKetThuc) AS [Ngày kết chiếu], COUNT(V.id) AS [Số vé đã bán], SUM(TienBanVe) AS [Tiền vé]
+	FROM dbo.Ve AS V, dbo.LichChieu AS LC, dbo.DinhDangPhim AS DDP, Phim AS P
+	WHERE V.idLichChieu = LC.id AND LC.idDinhDang = DDP.id AND DDP.idPhim = P.id AND V.TrangThai = 1 AND LC.ThoiGianChieu >= @fromDate AND LC.ThoiGianChieu <= @toDate
+	GROUP BY P.TenPhim, P.NgayKhoiChieu, P.NgayKetThuc
+END
+GO
+
+CREATE PROC USP_GetReportRevenueByDate
+@fromDate date, @toDate date
+AS
+BEGIN
+	SELECT P.TenPhim, CONVERT(DATE, P.NgayKhoiChieu) AS NgayKhoiChieu, CONVERT(DATE, P.NgayKetThuc) AS NgayKetThuc, COUNT(V.id) AS SoVeDaBan, SUM(TienBanVe) AS TongTien
+	FROM dbo.Ve AS V, dbo.LichChieu AS LC, dbo.DinhDangPhim AS DDP, Phim AS P
+	WHERE V.idLichChieu = LC.id AND LC.idDinhDang = DDP.id AND DDP.idPhim = P.id AND V.TrangThai = 1 AND LC.ThoiGianChieu >= @fromDate AND LC.ThoiGianChieu <= @toDate
+	GROUP BY P.TenPhim, P.NgayKhoiChieu, P.NgayKetThuc
+END
+GO
+
 
 --KHÁCH HÀNG
 CREATE PROC USP_GetCustomer
@@ -636,10 +696,10 @@ INSERT [dbo].[PhongChieu] ([id], [TenPhong], [idManHinh], [SoChoNgoi], [TinhTran
 INSERT [dbo].[PhongChieu] ([id], [TenPhong], [idManHinh], [SoChoNgoi], [TinhTrang], [SoHangGhe], [SoGheMotHang]) VALUES (N'PC03', N'CINEMA 03', N'MH03', 140, 1, 10, 14)
 INSERT [dbo].[PhongChieu] ([id], [TenPhong], [idManHinh], [SoChoNgoi], [TinhTrang], [SoHangGhe], [SoGheMotHang]) VALUES (N'PC04', N'CINEMA 04', N'MH01', 140, 1, 10, 14)
 
-INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P01', N'Avengers: Cuộc Chiến Vô Cực', N'Avengers: Infinity War', 150, CAST(N'2018-05-01' AS Date), CAST(N'2018-06-01' AS Date), N'Mỹ', N'Anthony Russo,  Joe Russo', 2018)
-INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P02', N'Lật Mặt: 3 Chàng Khuyết', N'Lat Mat 3 Chang Khuyet', 100, CAST(N'2018-05-01' AS Date), CAST(N'2018-06-01' AS Date), N'Việt Nam', N'Lý Hải', 2018)
-INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P03', N'100 Ngày Bên Em', NULL, 100, CAST(N'2018-05-01' AS Date), CAST(N'2018-06-01' AS Date), N'Việt Nam', N'Vũ Ngọc Phượng', 2018)
-INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P04', N'Ngỗng Vịt Phiêu Lưu Ký', N'Duck Duck Goose', 91, CAST(N'2018-05-01' AS Date), CAST(N'2018-06-01' AS Date), N'Mỹ', N'Christopher Jenkins', 2018)
+INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P01', N'WONDER WOMAN 1984: NỮ THẦN CHIẾN BINH', N'WONDER WOMAN 1984: NỮ THẦN CHIẾN BINH', 150, CAST(N'2020-12-18' AS Date), CAST(N'2021-01-20' AS Date), N'Mỹ', N'Patty Jenkins', 2020)
+INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P02', N'CHỊ MƯỜI BA: 3 NGÀY SINH TỬ', N'CHỊ MƯỜI BA: 3 NGÀY SINH TỬ', 100, CAST(N'2020-12-25' AS Date), CAST(N'2021-01-31' AS Date), N'Việt Nam', N'Võ Thanh Hòa', 2020)
+INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P03', N'PHIM DORAEMON: NOBITA VÀ NHỮNG BẠN KHỦNG LONG MỚI', NULL, 100, CAST(N'2020-12-18' AS Date), CAST(N'2021-01-31' AS Date), N'Nhật', N'Kazuaki Imai', 2020)
+INSERT [dbo].[Phim] ([id], [TenPhim], [MoTa], [ThoiLuong], [NgayKhoiChieu], [NgayKetThuc], [SanXuat], [DaoDien], [NamSX]) VALUES (N'P04', N'NGƯỜI CẦN QUÊN PHẢI NHỚ', N'NGƯỜI CẦN QUÊN PHẢI NHỚ', 91, CAST(N'2020-12-25' AS Date), CAST(N'2021-01-31' AS Date), N'Việt Nam', N'Đỗ Đức Thịnh', 2020)
 
 INSERT [dbo].[PhanLoaiPhim] ([idPhim], [idTheLoai]) VALUES (N'P01', N'TL01')
 INSERT [dbo].[PhanLoaiPhim] ([idPhim], [idTheLoai]) VALUES (N'P01', N'TL04')

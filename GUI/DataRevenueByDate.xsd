@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataRevenueByDate" targetNamespace="http://tempuri.org/DataRevenueByDate.xsd" xmlns:mstns="http://tempuri.org/DataRevenueByDate.xsd" xmlns="http://tempuri.org/DataRevenueByDate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataRevenueByDate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataRevenueByDate" msprop:Generator_UserDSName="DataRevenueByDate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataRevenueByDate" msprop:Generator_TableClassName="DataRevenueByDateDataTable" msprop:Generator_TableVarName="tableDataRevenueByDate" msprop:Generator_TablePropName="_DataRevenueByDate" msprop:Generator_RowDeletingName="DataRevenueByDateRowDeleting" msprop:Generator_RowChangingName="DataRevenueByDateRowChanging" msprop:Generator_RowEvHandlerName="DataRevenueByDateRowChangeEventHandler" msprop:Generator_RowDeletedName="DataRevenueByDateRowDeleted" msprop:Generator_UserTableName="DataRevenueByDate" msprop:Generator_RowChangedName="DataRevenueByDateRowChanged" msprop:Generator_RowEvArgName="DataRevenueByDateRowChangeEvent" msprop:Generator_RowClassName="DataRevenueByDateRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenPhim" msprop:Generator_ColumnVarNameInTable="columnTenPhim" msprop:Generator_ColumnPropNameInRow="TenPhim" msprop:Generator_ColumnPropNameInTable="TenPhimColumn" msprop:Generator_UserColumnName="TenPhim" type="xs:string" minOccurs="0" />
+              <xs:element name="NgayKhoiChieu" msprop:Generator_ColumnVarNameInTable="columnNgayKhoiChieu" msprop:Generator_ColumnPropNameInRow="NgayKhoiChieu" msprop:Generator_ColumnPropNameInTable="NgayKhoiChieuColumn" msprop:Generator_UserColumnName="NgayKhoiChieu" type="xs:string" minOccurs="0" />
+              <xs:element name="NgayKetThuc" msprop:Generator_ColumnVarNameInTable="columnNgayKetThuc" msprop:Generator_ColumnPropNameInRow="NgayKetThuc" msprop:Generator_ColumnPropNameInTable="NgayKetThucColumn" msprop:Generator_UserColumnName="NgayKetThuc" type="xs:string" minOccurs="0" />
+              <xs:element name="SoVeDaBan" msprop:Generator_ColumnVarNameInTable="columnSoVeDaBan" msprop:Generator_ColumnPropNameInRow="SoVeDaBan" msprop:Generator_ColumnPropNameInTable="SoVeDaBanColumn" msprop:Generator_UserColumnName="SoVeDaBan" type="xs:string" minOccurs="0" />
+              <xs:element name="TongTien" msprop:Generator_ColumnVarNameInTable="columnTongTien" msprop:Generator_ColumnPropNameInRow="TongTien" msprop:Generator_ColumnPropNameInTable="TongTienColumn" msprop:Generator_UserColumnName="TongTien" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -153,6 +153,8 @@
             this.btnApply.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnApply.Location = new System.Drawing.Point(385, 292);
             this.btnApply.Margin = new System.Windows.Forms.Padding(4);
+            this.btnApply.MaximumSize = new System.Drawing.Size(127, 42);
+            this.btnApply.MinimumSize = new System.Drawing.Size(127, 42);
             this.btnApply.Name = "btnApply";
             this.btnApply.Size = new System.Drawing.Size(127, 42);
             this.btnApply.TabIndex = 2;

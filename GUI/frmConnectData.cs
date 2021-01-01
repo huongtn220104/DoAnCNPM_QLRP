@@ -61,10 +61,10 @@ namespace GUI
             bool result = DataProvider.TestConnectionSQL(connectionSTR);
             if (result)
             {
-                MessageBox.Show("KẾT NỐI THÀNH CÔNG", "THÔNG BÁO");
+                MessageBox.Show("Kết nối thành công", "THÔNG BÁO");
             }
             else
-                MessageBox.Show("KẾT NỐI THẤT BẠI", "THÔNG BÁO");
+                MessageBox.Show("Kết nối thất bại! Vui lòng kiểm tra lại Server.", "THÔNG BÁO");
             btnConnect.Enabled = true;
             btnExit.Enabled = true;
         }

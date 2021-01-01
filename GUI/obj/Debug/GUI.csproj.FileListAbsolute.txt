@@ -1,0 +1,750 @@
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe.config
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.pdb
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\EnvDTE.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\stdole.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAccountSettings.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmConnectData.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmDashBoard.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmReport.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmSeller.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmTheatre.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmCustomer.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.exe
+D:\Nhập môn CNPM\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAccountSettings.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmConnectData.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmLogin.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmDashBoard.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmReport.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmSeller.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmTheatre.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmCustomer.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe.config
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\EnvDTE.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\stdole.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.MSXML.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe.config
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.exe
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\GUI.pdb
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\EnvDTE.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\stdole.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAccountSettings.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmConnectData.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmDashBoard.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmReport.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmSeller.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmTheatre.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.frmCustomer.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.exe
+D:\Quan-li-ban-ve-rap-chieu-phim---CNPM-master\GUI\obj\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAccountSettings.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmConnectData.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmLogin.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmDashBoard.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmReport.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmSeller.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmTheatre.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.frmCustomer.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\GUI.exe.config
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\EnvDTE.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\stdole.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\Microsoft.MSXML.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\GUI.exe.config
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\GUI.exe
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\GUI.pdb
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\EnvDTE.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\stdole.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAccountSettings.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmConnectData.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmDashBoard.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmReport.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmSeller.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmTheatre.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.frmCustomer.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.exe
+D:\Nhập môn CNPM\Quan li rap phim\GUI\obj\Debug\GUI.pdb
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\GUI.exe.config
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\GUI.exe
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\GUI.pdb
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\EnvDTE.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\stdole.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAccountSettings.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmConnectData.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmDashBoard.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmReport.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmSeller.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmTheatre.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.frmCustomer.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.exe
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.pdb
+D:\Đồ án năm 3\Quan li rap phim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\GUI.exe.config
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\GUI.exe
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\GUI.pdb
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\EnvDTE.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\stdole.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\Microsoft.MSXML.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAccountSettings.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmConnectData.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmLogin.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmDashBoard.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmReport.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmSeller.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmTheatre.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.frmCustomer.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.exe
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\obj\Debug\GUI.pdb
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.Shared.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\ShockwaveFlashObjects.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Nhập môn CNPM\Đồ án\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\GUI.exe.config
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\EnvDTE.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\stdole.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\Microsoft.MSXML.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAccountSettings.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminNewDesign.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.AccountUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.CustomerUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.CinemaUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.FormatMovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.GenreUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.MovieUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ScreenTypeUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.ShowTimesUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.DataUserControl.TicketsUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.StaffUC.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmConnectData.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmLogin.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmDashBoard.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmReport.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmSeller.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmTheatre.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmCustomer.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.exe
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.pdb
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueControl.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC1.resources
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmReportByDate.resources

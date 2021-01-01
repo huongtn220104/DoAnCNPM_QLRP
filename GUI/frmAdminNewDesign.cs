@@ -17,7 +17,7 @@ namespace GUI
         {
             this.Text = "Doanh Thu";
             pnAdmin.Controls.Clear();
-            RevenueUC revenueUc = new RevenueUC();
+            RevenueControl revenueUc = new RevenueControl();
             revenueUc.Dock = DockStyle.Fill;
             pnAdmin.Controls.Add(revenueUc);
         }

@@ -1,5 +1,6 @@
 ﻿using GUI.DAO;
 using System;
+using System.Data;
 using System.Globalization;
 using System.Linq;
 using System.Windows.Forms;
@@ -53,8 +54,12 @@ namespace GUI.frmAdminUserControls
 
         private void btnReportRevenue_Click(object sender, EventArgs e)
         {
-            frmReport frm = new frmReport(cboSelectMovie.SelectedValue.ToString(), dtmFromDate.Value, dtmToDate.Value);
-            frm.ShowDialog();
+            DataTable data = RevenueDAO.GetReportRevenue(cboSelectMovie.SelectedValue.ToString(), dtmFromDate.Value, dtmToDate.Value);
+            ReportRevenue report = new ReportRevenue();
+            report.SetDataSource(data);
+            frmReport f = new frmReport();
+            f.crystalReportViewer1.ReportSource = report;
+            f.ShowDialog();
         }
     }
 }

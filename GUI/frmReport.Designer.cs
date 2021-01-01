@@ -28,39 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.rpViewer = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
             this.SuspendLayout();
             // 
-            // rpViewer
+            // crystalReportViewer1
             // 
-            this.rpViewer.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSetRevenue";
-            reportDataSource1.Value = null;
-            this.rpViewer.LocalReport.DataSources.Add(reportDataSource1);
-            this.rpViewer.LocalReport.ReportEmbeddedResource = "GUI.Report.rdlc";
-            this.rpViewer.Location = new System.Drawing.Point(0, 0);
-            this.rpViewer.Name = "rpViewer";
-            this.rpViewer.ServerReport.BearerToken = null;
-            this.rpViewer.Size = new System.Drawing.Size(1048, 557);
-            this.rpViewer.TabIndex = 0;
+            this.crystalReportViewer1.ActiveViewIndex = -1;
+            this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.crystalReportViewer1.Name = "crystalReportViewer1";
+            this.crystalReportViewer1.Size = new System.Drawing.Size(800, 450);
+            this.crystalReportViewer1.TabIndex = 0;
             // 
             // frmReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 557);
-            this.Controls.Add(this.rpViewer);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.crystalReportViewer1);
             this.Name = "frmReport";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Báo Cáo";
-            this.Load += new System.EventHandler(this.frmReport_Load);
+            this.Text = "Báo cáo doanh thu theo phim";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Microsoft.Reporting.WinForms.ReportViewer rpViewer;
+        public CrystalDecisions.Windows.Forms.CrystalReportViewer crystalReportViewer1;
     }
 }

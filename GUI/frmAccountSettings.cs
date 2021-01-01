@@ -59,25 +59,7 @@ namespace GUI
                     MessageBox.Show("Vui lòng điền xác nhận đúng mật khẩu.");
                 }
             }
-            /*if (newPass != reEnterPass)
-            {
-                MessageBox.Show("Hai mật khẩu mới chưa trùng nhau!");
-            }
-            else if (newPass == "")
-            {
-                MessageBox.Show("Mật khẩu không được để trống.");
-            }
-            else
-            {
-                if (AccountDAO.UpdatePasswordForAccount(username, confirmPass, newPass))
-                {
-                    MessageBox.Show("Cập nhật thành công!");
-                }
-                else
-                {
-                    MessageBox.Show("Vui lòng điền đúng mật khẩu.");
-                }
-            }*/
+      
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -87,7 +69,13 @@ namespace GUI
 
         private void btnApply_Click(object sender, EventArgs e)
         {
-            ApplyChanges();
+            string message = "Bạn có chắc chắn đổi mật khẩu?";
+            DialogResult result = MessageBox.Show(message, "Xác nhận",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if (result == DialogResult.OK)
+            {
+                ApplyChanges();
+            }
         }
     }
 }
