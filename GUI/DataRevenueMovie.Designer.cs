@@ -20,17 +20,17 @@ namespace GUI {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("DataRevenue")]
+    [global::System.Xml.Serialization.XmlRootAttribute("DataRevenueMovie")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class DataRevenue : global::System.Data.DataSet {
+    public partial class DataRevenueMovie : global::System.Data.DataSet {
         
-        private DataRevenueDataTable tableDataRevenue;
+        private DataRevenueMovieDataTable tableDataRevenueMovie;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public DataRevenue() {
+        public DataRevenueMovie() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -41,7 +41,7 @@ namespace GUI {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        protected DataRevenue(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected DataRevenueMovie(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -54,8 +54,8 @@ namespace GUI {
             if ((this.DetermineSchemaSerializationMode(info, context) == global::System.Data.SchemaSerializationMode.IncludeSchema)) {
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXmlSchema(new global::System.Xml.XmlTextReader(new global::System.IO.StringReader(strSchema)));
-                if ((ds.Tables["DataRevenue"] != null)) {
-                    base.Tables.Add(new DataRevenueDataTable(ds.Tables["DataRevenue"]));
+                if ((ds.Tables["DataRevenueMovie"] != null)) {
+                    base.Tables.Add(new DataRevenueMovieDataTable(ds.Tables["DataRevenueMovie"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -79,9 +79,9 @@ namespace GUI {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public DataRevenueDataTable _DataRevenue {
+        public DataRevenueMovieDataTable _DataRevenueMovie {
             get {
-                return this.tableDataRevenue;
+                return this.tableDataRevenueMovie;
             }
         }
         
@@ -127,7 +127,7 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            DataRevenue cln = ((DataRevenue)(base.Clone()));
+            DataRevenueMovie cln = ((DataRevenueMovie)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -152,8 +152,8 @@ namespace GUI {
                 this.Reset();
                 global::System.Data.DataSet ds = new global::System.Data.DataSet();
                 ds.ReadXml(reader);
-                if ((ds.Tables["DataRevenue"] != null)) {
-                    base.Tables.Add(new DataRevenueDataTable(ds.Tables["DataRevenue"]));
+                if ((ds.Tables["DataRevenueMovie"] != null)) {
+                    base.Tables.Add(new DataRevenueMovieDataTable(ds.Tables["DataRevenueMovie"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -188,10 +188,10 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         internal void InitVars(bool initTable) {
-            this.tableDataRevenue = ((DataRevenueDataTable)(base.Tables["DataRevenue"]));
+            this.tableDataRevenueMovie = ((DataRevenueMovieDataTable)(base.Tables["DataRevenueMovie"]));
             if ((initTable == true)) {
-                if ((this.tableDataRevenue != null)) {
-                    this.tableDataRevenue.InitVars();
+                if ((this.tableDataRevenueMovie != null)) {
+                    this.tableDataRevenueMovie.InitVars();
                 }
             }
         }
@@ -199,18 +199,18 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "DataRevenue";
+            this.DataSetName = "DataRevenueMovie";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/DataRevenue.xsd";
+            this.Namespace = "http://tempuri.org/DataRevenueMovie.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
-            this.tableDataRevenue = new DataRevenueDataTable();
-            base.Tables.Add(this.tableDataRevenue);
+            this.tableDataRevenueMovie = new DataRevenueMovieDataTable();
+            base.Tables.Add(this.tableDataRevenueMovie);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private bool ShouldSerialize_DataRevenue() {
+        private bool ShouldSerialize_DataRevenueMovie() {
             return false;
         }
         
@@ -225,7 +225,7 @@ namespace GUI {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            DataRevenue ds = new DataRevenue();
+            DataRevenueMovie ds = new DataRevenueMovie();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -270,20 +270,26 @@ namespace GUI {
         }
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public delegate void DataRevenueRowChangeEventHandler(object sender, DataRevenueRowChangeEvent e);
+        public delegate void DataRevenueMovieRowChangeEventHandler(object sender, DataRevenueMovieRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class DataRevenueDataTable : global::System.Data.TypedTableBase<DataRevenueRow> {
+        public partial class DataRevenueMovieDataTable : global::System.Data.TypedTableBase<DataRevenueMovieRow> {
             
             private global::System.Data.DataColumn columnTenPhim;
+            
+            private global::System.Data.DataColumn columnNgayBatDau;
+            
+            private global::System.Data.DataColumn columnNgayKetThuc;
             
             private global::System.Data.DataColumn columnNgayChieu;
             
             private global::System.Data.DataColumn columnGioChieu;
+            
+            private global::System.Data.DataColumn columnDinhDang;
             
             private global::System.Data.DataColumn columnSoVeDaBan;
             
@@ -291,8 +297,8 @@ namespace GUI {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueDataTable() {
-                this.TableName = "DataRevenue";
+            public DataRevenueMovieDataTable() {
+                this.TableName = "DataRevenueMovie";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -300,7 +306,7 @@ namespace GUI {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal DataRevenueDataTable(global::System.Data.DataTable table) {
+            internal DataRevenueMovieDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -317,7 +323,7 @@ namespace GUI {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            protected DataRevenueDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected DataRevenueMovieDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
@@ -327,6 +333,22 @@ namespace GUI {
             public global::System.Data.DataColumn TenPhimColumn {
                 get {
                     return this.columnTenPhim;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn NgayBatDauColumn {
+                get {
+                    return this.columnNgayBatDau;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn NgayKetThucColumn {
+                get {
+                    return this.columnNgayKetThuc;
                 }
             }
             
@@ -343,6 +365,14 @@ namespace GUI {
             public global::System.Data.DataColumn GioChieuColumn {
                 get {
                     return this.columnGioChieu;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn DinhDangColumn {
+                get {
+                    return this.columnDinhDang;
                 }
             }
             
@@ -373,49 +403,52 @@ namespace GUI {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueRow this[int index] {
+            public DataRevenueMovieRow this[int index] {
                 get {
-                    return ((DataRevenueRow)(this.Rows[index]));
+                    return ((DataRevenueMovieRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event DataRevenueRowChangeEventHandler DataRevenueRowChanging;
+            public event DataRevenueMovieRowChangeEventHandler DataRevenueMovieRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event DataRevenueRowChangeEventHandler DataRevenueRowChanged;
+            public event DataRevenueMovieRowChangeEventHandler DataRevenueMovieRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event DataRevenueRowChangeEventHandler DataRevenueRowDeleting;
+            public event DataRevenueMovieRowChangeEventHandler DataRevenueMovieRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public event DataRevenueRowChangeEventHandler DataRevenueRowDeleted;
+            public event DataRevenueMovieRowChangeEventHandler DataRevenueMovieRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void AddDataRevenueRow(DataRevenueRow row) {
+            public void AddDataRevenueMovieRow(DataRevenueMovieRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueRow AddDataRevenueRow(string TenPhim, string NgayChieu, string GioChieu, string SoVeDaBan, string TongTien) {
-                DataRevenueRow rowDataRevenueRow = ((DataRevenueRow)(this.NewRow()));
+            public DataRevenueMovieRow AddDataRevenueMovieRow(string TenPhim, string NgayBatDau, string NgayKetThuc, string NgayChieu, string GioChieu, string DinhDang, long SoVeDaBan, long TongTien) {
+                DataRevenueMovieRow rowDataRevenueMovieRow = ((DataRevenueMovieRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         TenPhim,
+                        NgayBatDau,
+                        NgayKetThuc,
                         NgayChieu,
                         GioChieu,
+                        DinhDang,
                         SoVeDaBan,
                         TongTien};
-                rowDataRevenueRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowDataRevenueRow);
-                return rowDataRevenueRow;
+                rowDataRevenueMovieRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowDataRevenueMovieRow);
+                return rowDataRevenueMovieRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                DataRevenueDataTable cln = ((DataRevenueDataTable)(base.Clone()));
+                DataRevenueMovieDataTable cln = ((DataRevenueMovieDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -423,15 +456,18 @@ namespace GUI {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new DataRevenueDataTable();
+                return new DataRevenueMovieDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
                 this.columnTenPhim = base.Columns["TenPhim"];
+                this.columnNgayBatDau = base.Columns["NgayBatDau"];
+                this.columnNgayKetThuc = base.Columns["NgayKetThuc"];
                 this.columnNgayChieu = base.Columns["NgayChieu"];
                 this.columnGioChieu = base.Columns["GioChieu"];
+                this.columnDinhDang = base.Columns["DinhDang"];
                 this.columnSoVeDaBan = base.Columns["SoVeDaBan"];
                 this.columnTongTien = base.Columns["TongTien"];
             }
@@ -441,42 +477,48 @@ namespace GUI {
             private void InitClass() {
                 this.columnTenPhim = new global::System.Data.DataColumn("TenPhim", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTenPhim);
+                this.columnNgayBatDau = new global::System.Data.DataColumn("NgayBatDau", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNgayBatDau);
+                this.columnNgayKetThuc = new global::System.Data.DataColumn("NgayKetThuc", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnNgayKetThuc);
                 this.columnNgayChieu = new global::System.Data.DataColumn("NgayChieu", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNgayChieu);
                 this.columnGioChieu = new global::System.Data.DataColumn("GioChieu", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnGioChieu);
-                this.columnSoVeDaBan = new global::System.Data.DataColumn("SoVeDaBan", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columnDinhDang = new global::System.Data.DataColumn("DinhDang", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDinhDang);
+                this.columnSoVeDaBan = new global::System.Data.DataColumn("SoVeDaBan", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSoVeDaBan);
-                this.columnTongTien = new global::System.Data.DataColumn("TongTien", typeof(string), null, global::System.Data.MappingType.Element);
+                this.columnTongTien = new global::System.Data.DataColumn("TongTien", typeof(long), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTongTien);
-                this.ExtendedProperties.Add("Generator_TablePropName", "_DataRevenue");
-                this.ExtendedProperties.Add("Generator_UserTableName", "DataRevenue");
+                this.ExtendedProperties.Add("Generator_TablePropName", "_DataRevenueMovie");
+                this.ExtendedProperties.Add("Generator_UserTableName", "DataRevenueMovie");
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueRow NewDataRevenueRow() {
-                return ((DataRevenueRow)(this.NewRow()));
+            public DataRevenueMovieRow NewDataRevenueMovieRow() {
+                return ((DataRevenueMovieRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new DataRevenueRow(builder);
+                return new DataRevenueMovieRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(DataRevenueRow);
+                return typeof(DataRevenueMovieRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.DataRevenueRowChanged != null)) {
-                    this.DataRevenueRowChanged(this, new DataRevenueRowChangeEvent(((DataRevenueRow)(e.Row)), e.Action));
+                if ((this.DataRevenueMovieRowChanged != null)) {
+                    this.DataRevenueMovieRowChanged(this, new DataRevenueMovieRowChangeEvent(((DataRevenueMovieRow)(e.Row)), e.Action));
                 }
             }
             
@@ -484,8 +526,8 @@ namespace GUI {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.DataRevenueRowChanging != null)) {
-                    this.DataRevenueRowChanging(this, new DataRevenueRowChangeEvent(((DataRevenueRow)(e.Row)), e.Action));
+                if ((this.DataRevenueMovieRowChanging != null)) {
+                    this.DataRevenueMovieRowChanging(this, new DataRevenueMovieRowChangeEvent(((DataRevenueMovieRow)(e.Row)), e.Action));
                 }
             }
             
@@ -493,8 +535,8 @@ namespace GUI {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.DataRevenueRowDeleted != null)) {
-                    this.DataRevenueRowDeleted(this, new DataRevenueRowChangeEvent(((DataRevenueRow)(e.Row)), e.Action));
+                if ((this.DataRevenueMovieRowDeleted != null)) {
+                    this.DataRevenueMovieRowDeleted(this, new DataRevenueMovieRowChangeEvent(((DataRevenueMovieRow)(e.Row)), e.Action));
                 }
             }
             
@@ -502,14 +544,14 @@ namespace GUI {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.DataRevenueRowDeleting != null)) {
-                    this.DataRevenueRowDeleting(this, new DataRevenueRowChangeEvent(((DataRevenueRow)(e.Row)), e.Action));
+                if ((this.DataRevenueMovieRowDeleting != null)) {
+                    this.DataRevenueMovieRowDeleting(this, new DataRevenueMovieRowChangeEvent(((DataRevenueMovieRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void RemoveDataRevenueRow(DataRevenueRow row) {
+            public void RemoveDataRevenueMovieRow(DataRevenueMovieRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -518,7 +560,7 @@ namespace GUI {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                DataRevenue ds = new DataRevenue();
+                DataRevenueMovie ds = new DataRevenueMovie();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -536,7 +578,7 @@ namespace GUI {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "DataRevenueDataTable";
+                attribute2.FixedValue = "DataRevenueMovieDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -580,15 +622,15 @@ namespace GUI {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class DataRevenueRow : global::System.Data.DataRow {
+        public partial class DataRevenueMovieRow : global::System.Data.DataRow {
             
-            private DataRevenueDataTable tableDataRevenue;
+            private DataRevenueMovieDataTable tableDataRevenueMovie;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            internal DataRevenueRow(global::System.Data.DataRowBuilder rb) : 
+            internal DataRevenueMovieRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableDataRevenue = ((DataRevenueDataTable)(this.Table));
+                this.tableDataRevenueMovie = ((DataRevenueMovieDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -596,14 +638,46 @@ namespace GUI {
             public string TenPhim {
                 get {
                     try {
-                        return ((string)(this[this.tableDataRevenue.TenPhimColumn]));
+                        return ((string)(this[this.tableDataRevenueMovie.TenPhimColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'TenPhim\' in table \'DataRevenue\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'TenPhim\' in table \'DataRevenueMovie\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataRevenue.TenPhimColumn] = value;
+                    this[this.tableDataRevenueMovie.TenPhimColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string NgayBatDau {
+                get {
+                    try {
+                        return ((string)(this[this.tableDataRevenueMovie.NgayBatDauColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'NgayBatDau\' in table \'DataRevenueMovie\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDataRevenueMovie.NgayBatDauColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public string NgayKetThuc {
+                get {
+                    try {
+                        return ((string)(this[this.tableDataRevenueMovie.NgayKetThucColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'NgayKetThuc\' in table \'DataRevenueMovie\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDataRevenueMovie.NgayKetThucColumn] = value;
                 }
             }
             
@@ -612,14 +686,14 @@ namespace GUI {
             public string NgayChieu {
                 get {
                     try {
-                        return ((string)(this[this.tableDataRevenue.NgayChieuColumn]));
+                        return ((string)(this[this.tableDataRevenueMovie.NgayChieuColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'NgayChieu\' in table \'DataRevenue\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'NgayChieu\' in table \'DataRevenueMovie\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataRevenue.NgayChieuColumn] = value;
+                    this[this.tableDataRevenueMovie.NgayChieuColumn] = value;
                 }
             }
             
@@ -628,107 +702,159 @@ namespace GUI {
             public string GioChieu {
                 get {
                     try {
-                        return ((string)(this[this.tableDataRevenue.GioChieuColumn]));
+                        return ((string)(this[this.tableDataRevenueMovie.GioChieuColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'GioChieu\' in table \'DataRevenue\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'GioChieu\' in table \'DataRevenueMovie\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataRevenue.GioChieuColumn] = value;
+                    this[this.tableDataRevenueMovie.GioChieuColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string SoVeDaBan {
+            public string DinhDang {
                 get {
                     try {
-                        return ((string)(this[this.tableDataRevenue.SoVeDaBanColumn]));
+                        return ((string)(this[this.tableDataRevenueMovie.DinhDangColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'SoVeDaBan\' in table \'DataRevenue\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'DinhDang\' in table \'DataRevenueMovie\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataRevenue.SoVeDaBanColumn] = value;
+                    this[this.tableDataRevenueMovie.DinhDangColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public string TongTien {
+            public long SoVeDaBan {
                 get {
                     try {
-                        return ((string)(this[this.tableDataRevenue.TongTienColumn]));
+                        return ((long)(this[this.tableDataRevenueMovie.SoVeDaBanColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'TongTien\' in table \'DataRevenue\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'SoVeDaBan\' in table \'DataRevenueMovie\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataRevenue.TongTienColumn] = value;
+                    this[this.tableDataRevenueMovie.SoVeDaBanColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public long TongTien {
+                get {
+                    try {
+                        return ((long)(this[this.tableDataRevenueMovie.TongTienColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'TongTien\' in table \'DataRevenueMovie\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableDataRevenueMovie.TongTienColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsTenPhimNull() {
-                return this.IsNull(this.tableDataRevenue.TenPhimColumn);
+                return this.IsNull(this.tableDataRevenueMovie.TenPhimColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetTenPhimNull() {
-                this[this.tableDataRevenue.TenPhimColumn] = global::System.Convert.DBNull;
+                this[this.tableDataRevenueMovie.TenPhimColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsNgayBatDauNull() {
+                return this.IsNull(this.tableDataRevenueMovie.NgayBatDauColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetNgayBatDauNull() {
+                this[this.tableDataRevenueMovie.NgayBatDauColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsNgayKetThucNull() {
+                return this.IsNull(this.tableDataRevenueMovie.NgayKetThucColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetNgayKetThucNull() {
+                this[this.tableDataRevenueMovie.NgayKetThucColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsNgayChieuNull() {
-                return this.IsNull(this.tableDataRevenue.NgayChieuColumn);
+                return this.IsNull(this.tableDataRevenueMovie.NgayChieuColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetNgayChieuNull() {
-                this[this.tableDataRevenue.NgayChieuColumn] = global::System.Convert.DBNull;
+                this[this.tableDataRevenueMovie.NgayChieuColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsGioChieuNull() {
-                return this.IsNull(this.tableDataRevenue.GioChieuColumn);
+                return this.IsNull(this.tableDataRevenueMovie.GioChieuColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetGioChieuNull() {
-                this[this.tableDataRevenue.GioChieuColumn] = global::System.Convert.DBNull;
+                this[this.tableDataRevenueMovie.GioChieuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsDinhDangNull() {
+                return this.IsNull(this.tableDataRevenueMovie.DinhDangColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetDinhDangNull() {
+                this[this.tableDataRevenueMovie.DinhDangColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsSoVeDaBanNull() {
-                return this.IsNull(this.tableDataRevenue.SoVeDaBanColumn);
+                return this.IsNull(this.tableDataRevenueMovie.SoVeDaBanColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetSoVeDaBanNull() {
-                this[this.tableDataRevenue.SoVeDaBanColumn] = global::System.Convert.DBNull;
+                this[this.tableDataRevenueMovie.SoVeDaBanColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public bool IsTongTienNull() {
-                return this.IsNull(this.tableDataRevenue.TongTienColumn);
+                return this.IsNull(this.tableDataRevenueMovie.TongTienColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public void SetTongTienNull() {
-                this[this.tableDataRevenue.TongTienColumn] = global::System.Convert.DBNull;
+                this[this.tableDataRevenueMovie.TongTienColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -736,22 +862,22 @@ namespace GUI {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public class DataRevenueRowChangeEvent : global::System.EventArgs {
+        public class DataRevenueMovieRowChangeEvent : global::System.EventArgs {
             
-            private DataRevenueRow eventRow;
+            private DataRevenueMovieRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueRowChangeEvent(DataRevenueRow row, global::System.Data.DataRowAction action) {
+            public DataRevenueMovieRowChangeEvent(DataRevenueMovieRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public DataRevenueRow Row {
+            public DataRevenueMovieRow Row {
                 get {
                     return this.eventRow;
                 }

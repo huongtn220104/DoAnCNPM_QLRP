@@ -16,14 +16,14 @@ namespace GUI {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class ReportRevenueByDate : ReportClass {
+    public class ReportRevenueMovie : ReportClass {
         
-        public ReportRevenueByDate() {
+        public ReportRevenueMovie() {
         }
         
         public override string ResourceName {
             get {
-                return "ReportRevenueByDate.rpt";
+                return "ReportRevenueMovie.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace GUI {
         
         public override string FullResourceName {
             get {
-                return "GUI.ReportRevenueByDate.rpt";
+                return "GUI.ReportRevenueMovie.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace GUI {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedReportRevenueByDate : Component, ICachedReport {
+    public class CachedReportRevenueMovie : Component, ICachedReport {
         
-        public CachedReportRevenueByDate() {
+        public CachedReportRevenueMovie() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace GUI {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            ReportRevenueByDate rpt = new ReportRevenueByDate();
+            ReportRevenueMovie rpt = new ReportRevenueMovie();
             rpt.Site = this.Site;
             return rpt;
         }

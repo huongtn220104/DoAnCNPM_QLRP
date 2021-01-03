@@ -62,7 +62,6 @@ namespace GUI.DAO
 		public static bool DeleteShowtime(string id)
 		{
             TicketDAO.DeleteTicketsByShowTimes(id);
-
 			int result = DataProvider.ExecuteNonQuery("DELETE dbo.LichChieu WHERE id = '" + id + "'");
 			return result > 0;
 		}
@@ -72,5 +71,5 @@ namespace GUI.DAO
 			DataTable data = DataProvider.ExecuteQuery("EXEC USP_SearchShowtimeByMovieName @tenPhim ", new object[] { movieName });
 			return data;
 		}
-	}
+    }
 }

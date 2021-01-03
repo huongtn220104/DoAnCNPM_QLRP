@@ -1,4 +1,5 @@
 ﻿using GUI.DAO;
+using Microsoft.ReportingServices.ReportProcessing.ReportObjectModel;
 using System;
 using System.Data;
 using System.Globalization;
@@ -46,7 +47,7 @@ namespace GUI.frmAdminUserControls
         private void btnReportRevenue_Click(object sender, EventArgs e)
         {
             DataTable data = RevenueDAO.GetReportRevenue1(dtmFromDate.Value, dtmToDate.Value);
-            ReportRevenueByDate report = new ReportRevenueByDate();
+            ReportRevenueCinema report = new ReportRevenueCinema();
             report.SetDataSource(data);
             frmReportByDate f = new frmReportByDate();
             f.crystalReportViewer1.ReportSource = report;

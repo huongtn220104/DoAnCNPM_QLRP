@@ -746,5 +746,4 @@ C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.exe
 C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.pdb
 C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueControl.resources
 C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmAdminUserControls.RevenueUC1.resources
-C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
 C:\Users\huyle\OneDrive\Máy tính\QuanLiRapPhim\GUI\obj\Debug\GUI.frmReportByDate.resources

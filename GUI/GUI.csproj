@@ -118,15 +118,15 @@
     <Compile Include="DAO\ShowTimesDAO.cs" />
     <Compile Include="DAO\StaffDAO.cs" />
     <Compile Include="DAO\TicketDAO.cs" />
-    <Compile Include="DataRevenue.Designer.cs">
+    <Compile Include="DataRevenueCinema.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataRevenue.xsd</DependentUpon>
+      <DependentUpon>DataRevenueCinema.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataRevenueByDate.Designer.cs">
+    <Compile Include="DataRevenueMovie.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DataRevenueByDate.xsd</DependentUpon>
+      <DependentUpon>DataRevenueMovie.xsd</DependentUpon>
     </Compile>
     <Compile Include="DTO\Account.cs" />
     <Compile Include="DTO\Genre.cs" />
@@ -285,16 +285,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportRevenue.cs">
+    <Compile Include="ReportRevenueCinema.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ReportRevenue.rpt</DependentUpon>
+      <DependentUpon>ReportRevenueCinema.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="ReportRevenueByDate.cs">
+    <Compile Include="ReportRevenueMovie.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ReportRevenueByDate.rpt</DependentUpon>
+      <DependentUpon>ReportRevenueMovie.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="frmAdminUserControls\DataUserControl\CinemaUC.resx">
@@ -373,35 +373,35 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportRevenue.rpt">
+    <EmbeddedResource Include="ReportRevenueCinema.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>ReportRevenue.cs</LastGenOutput>
+      <LastGenOutput>ReportRevenueCinema.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportRevenueByDate.rpt">
+    <EmbeddedResource Include="ReportRevenueMovie.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>ReportRevenueByDate.cs</LastGenOutput>
+      <LastGenOutput>ReportRevenueMovie.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="DataRevenue.xsc">
-      <DependentUpon>DataRevenue.xsd</DependentUpon>
+    <None Include="DataRevenueCinema.xsc">
+      <DependentUpon>DataRevenueCinema.xsd</DependentUpon>
     </None>
-    <None Include="DataRevenue.xsd">
+    <None Include="DataRevenueCinema.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataRevenue.Designer.cs</LastGenOutput>
+      <LastGenOutput>DataRevenueCinema.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DataRevenue.xss">
-      <DependentUpon>DataRevenue.xsd</DependentUpon>
+    <None Include="DataRevenueCinema.xss">
+      <DependentUpon>DataRevenueCinema.xsd</DependentUpon>
     </None>
-    <None Include="DataRevenueByDate.xsc">
-      <DependentUpon>DataRevenueByDate.xsd</DependentUpon>
+    <None Include="DataRevenueMovie.xsc">
+      <DependentUpon>DataRevenueMovie.xsd</DependentUpon>
     </None>
-    <None Include="DataRevenueByDate.xsd">
+    <None Include="DataRevenueMovie.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataRevenueByDate.Designer.cs</LastGenOutput>
+      <LastGenOutput>DataRevenueMovie.Designer.cs</LastGenOutput>
     </None>
-    <None Include="DataRevenueByDate.xss">
-      <DependentUpon>DataRevenueByDate.xsd</DependentUpon>
+    <None Include="DataRevenueMovie.xss">
+      <DependentUpon>DataRevenueMovie.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

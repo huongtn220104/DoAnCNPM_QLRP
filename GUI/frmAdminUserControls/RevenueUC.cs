@@ -55,7 +55,7 @@ namespace GUI.frmAdminUserControls
         private void btnReportRevenue_Click(object sender, EventArgs e)
         {
             DataTable data = RevenueDAO.GetReportRevenue(cboSelectMovie.SelectedValue.ToString(), dtmFromDate.Value, dtmToDate.Value);
-            ReportRevenue report = new ReportRevenue();
+            ReportRevenueMovie report = new ReportRevenueMovie();
             report.SetDataSource(data);
             frmReport f = new frmReport();
             f.crystalReportViewer1.ReportSource = report;

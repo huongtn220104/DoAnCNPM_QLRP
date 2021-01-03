@@ -87,5 +87,10 @@ namespace GUI.DAO
             }
             return movie;
         }
+        public static DataTable SearchMovieByName(string movieName)
+        {
+            DataTable data = DataProvider.ExecuteQuery("EXEC USP_SearchMovieByName @tenPhim ", new object[] { movieName });
+            return data;
+        }
     }
 }

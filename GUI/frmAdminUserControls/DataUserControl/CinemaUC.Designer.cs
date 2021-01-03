@@ -79,7 +79,7 @@
             this.btnShowCinema.TabIndex = 3;
             this.btnShowCinema.Text = "Xem";
             this.btnShowCinema.UseVisualStyleBackColor = true;
-            this.btnShowCinema.Click += new System.EventHandler(this.btnDeleteCinema_Click);
+            this.btnShowCinema.Click += new System.EventHandler(this.btnShowCinema_Click);
             // 
             // btnUpdateCinema
             // 

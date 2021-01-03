@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.panel47 = new System.Windows.Forms.Panel();
+            this.gpbTimTheoTen = new System.Windows.Forms.GroupBox();
+            this.btnSearchMovie = new System.Windows.Forms.Button();
+            this.txtSearchMovie = new System.Windows.Forms.TextBox();
             this.btnShowMovie = new System.Windows.Forms.Button();
             this.btnUpdateMovie = new System.Windows.Forms.Button();
             this.btnDeleteMovie = new System.Windows.Forms.Button();
@@ -59,6 +62,7 @@
             this.txtMovieID = new System.Windows.Forms.TextBox();
             this.lblMovieID = new System.Windows.Forms.Label();
             this.panel47.SuspendLayout();
+            this.gpbTimTheoTen.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvMovie)).BeginInit();
             this.panel2.SuspendLayout();
@@ -67,16 +71,49 @@
             // 
             // panel47
             // 
+            this.panel47.Controls.Add(this.gpbTimTheoTen);
             this.panel47.Controls.Add(this.btnShowMovie);
             this.panel47.Controls.Add(this.btnUpdateMovie);
             this.panel47.Controls.Add(this.btnDeleteMovie);
             this.panel47.Controls.Add(this.btnAddMovie);
             this.panel47.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel47.Location = new System.Drawing.Point(0, 278);
+            this.panel47.Location = new System.Drawing.Point(0, 280);
             this.panel47.Margin = new System.Windows.Forms.Padding(4);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(1548, 64);
             this.panel47.TabIndex = 10;
+            // 
+            // gpbTimTheoTen
+            // 
+            this.gpbTimTheoTen.Controls.Add(this.btnSearchMovie);
+            this.gpbTimTheoTen.Controls.Add(this.txtSearchMovie);
+            this.gpbTimTheoTen.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.gpbTimTheoTen.Location = new System.Drawing.Point(1023, 1);
+            this.gpbTimTheoTen.Name = "gpbTimTheoTen";
+            this.gpbTimTheoTen.Size = new System.Drawing.Size(525, 60);
+            this.gpbTimTheoTen.TabIndex = 9;
+            this.gpbTimTheoTen.TabStop = false;
+            this.gpbTimTheoTen.Text = "Tìm theo tên phim";
+            // 
+            // btnSearchMovie
+            // 
+            this.btnSearchMovie.Image = global::GUI.Properties.Resources.search_icon;
+            this.btnSearchMovie.Location = new System.Drawing.Point(492, 25);
+            this.btnSearchMovie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSearchMovie.Name = "btnSearchMovie";
+            this.btnSearchMovie.Size = new System.Drawing.Size(27, 27);
+            this.btnSearchMovie.TabIndex = 8;
+            this.btnSearchMovie.UseVisualStyleBackColor = true;
+            this.btnSearchMovie.Click += new System.EventHandler(this.btnSearchMovie_Click);
+            // 
+            // txtSearchMovie
+            // 
+            this.txtSearchMovie.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchMovie.Location = new System.Drawing.Point(6, 23);
+            this.txtSearchMovie.Name = "txtSearchMovie";
+            this.txtSearchMovie.Size = new System.Drawing.Size(480, 30);
+            this.txtSearchMovie.TabIndex = 4;
+            this.txtSearchMovie.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchMovie_KeyDown);
             // 
             // btnShowMovie
             // 
@@ -145,12 +182,12 @@
             this.dtgvMovie.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtgvMovie.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvMovie.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgvMovie.Location = new System.Drawing.Point(0, 342);
+            this.dtgvMovie.Location = new System.Drawing.Point(0, 344);
             this.dtgvMovie.Margin = new System.Windows.Forms.Padding(4);
             this.dtgvMovie.Name = "dtgvMovie";
             this.dtgvMovie.ReadOnly = true;
             this.dtgvMovie.RowHeadersWidth = 51;
-            this.dtgvMovie.Size = new System.Drawing.Size(1548, 296);
+            this.dtgvMovie.Size = new System.Drawing.Size(1548, 294);
             this.dtgvMovie.TabIndex = 1;
             // 
             // panel2
@@ -181,7 +218,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1548, 278);
+            this.panel2.Size = new System.Drawing.Size(1548, 280);
             this.panel2.TabIndex = 0;
             // 
             // btnUpLoadPictureFilm
@@ -415,6 +452,8 @@
             this.Name = "MovieUC";
             this.Size = new System.Drawing.Size(1548, 638);
             this.panel47.ResumeLayout(false);
+            this.gpbTimTheoTen.ResumeLayout(false);
+            this.gpbTimTheoTen.PerformLayout();
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvMovie)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -456,5 +495,8 @@
         private System.Windows.Forms.TextBox txtMovieID;
         private System.Windows.Forms.Label lblMovieID;
         private System.Windows.Forms.DataGridView dtgvMovie;
+        private System.Windows.Forms.TextBox txtSearchMovie;
+        private System.Windows.Forms.Button btnSearchMovie;
+        private System.Windows.Forms.GroupBox gpbTimTheoTen;
     }
 }

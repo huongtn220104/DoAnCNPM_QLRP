@@ -206,5 +206,20 @@ namespace GUI.frmAdminUserControls.DataUserControl
             DeleteMovie(movieID);
             LoadMovieList();
         }
+
+        private void btnSearchMovie_Click(object sender, EventArgs e)
+        {
+            string movieName = txtSearchMovie.Text;
+            movieList.DataSource = MovieDAO.SearchMovieByName(movieName);
+        }
+        private void txtSearchMovie_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnSearchMovie.PerformClick();
+                e.SuppressKeyPress = true;//Tắt tiếng *ting của windows
+            }
+        }
+
     }
 }

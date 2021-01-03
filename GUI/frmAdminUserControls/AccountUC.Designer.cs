@@ -190,7 +190,7 @@
             this.nudAccountType.Name = "nudAccountType";
             this.nudAccountType.Size = new System.Drawing.Size(239, 30);
             this.nudAccountType.TabIndex = 6;
-            this.toolTipAccountType.SetToolTip(this.nudAccountType, "1 : Quản lý\r\n2 : Bán vé");
+            this.toolTipAccountType.SetToolTip(this.nudAccountType, "1 : Quản trị hệ thống\r\n2 : Nhân viên bán vé");
             this.nudAccountType.Value = new decimal(new int[] {
             1,
             0,

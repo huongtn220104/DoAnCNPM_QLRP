@@ -52,7 +52,7 @@
             this.dtgvRevenue.ReadOnly = true;
             this.dtgvRevenue.RowHeadersWidth = 51;
             this.dtgvRevenue.RowTemplate.Height = 24;
-            this.dtgvRevenue.Size = new System.Drawing.Size(1211, 343);
+            this.dtgvRevenue.Size = new System.Drawing.Size(1211, 385);
             this.dtgvRevenue.TabIndex = 0;
             // 
             // lblTuNgay

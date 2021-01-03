@@ -41,11 +41,11 @@
             this.panel1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panel1.Controls.Add(this.btnTheoThoiGian);
             this.panel1.Controls.Add(this.btnTheoPhim);
-            this.panel1.Location = new System.Drawing.Point(3, -5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(286, 657);
-            this.panel1.TabIndex = 0;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(286, 640);
+            this.panel1.TabIndex = 0;
             // 
             // btnTheoThoiGian
             // 
@@ -57,7 +57,7 @@
             this.btnTheoThoiGian.Name = "btnTheoThoiGian";
             this.btnTheoThoiGian.Size = new System.Drawing.Size(270, 66);
             this.btnTheoThoiGian.TabIndex = 1;
-            this.btnTheoThoiGian.Text = "Doanh thu theo thời gian";
+            this.btnTheoThoiGian.Text = "     Tổng doanh thu bán vé";
             this.btnTheoThoiGian.UseVisualStyleBackColor = true;
             this.btnTheoThoiGian.Click += new System.EventHandler(this.btnTheoThoiGian_Click);
             // 
