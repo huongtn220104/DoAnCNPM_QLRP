@@ -21,6 +21,15 @@ namespace GUI {
         public ReportRevenueMovie() {
         }
         
+        public override string FullResourceName {
+            get {
+                return "GUI.ReportRevenueMovie.rpt";
+            }
+            set {
+                // Do nothing
+            }
+        }
+
         public override string ResourceName {
             get {
                 return "ReportRevenueMovie.rpt";
@@ -39,14 +48,6 @@ namespace GUI {
             }
         }
         
-        public override string FullResourceName {
-            get {
-                return "GUI.ReportRevenueMovie.rpt";
-            }
-            set {
-                // Do nothing
-            }
-        }
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
