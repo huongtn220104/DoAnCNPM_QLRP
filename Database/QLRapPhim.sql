@@ -66,7 +66,7 @@ CREATE TABLE Phim
 	ApPhich image
 )
 GO
-
+///
 CREATE TABLE DinhDangPhim --Phim có hỗ trợ màn hình 3D hay IMax không?
 (
 	id varchar(50) NOT NULL primary key,
