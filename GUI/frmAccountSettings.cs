@@ -56,7 +56,7 @@ namespace GUI
                 }
                 else
                 {
-                    MessageBox.Show("Vui lòng điền xác nhận đúng mật khẩu.");
+                    MessageBox.Show("Vui lòng điền xác nhận đúng mật khẩu!");
                 }
             }
       
@@ -69,7 +69,7 @@ namespace GUI
 
         private void btnApply_Click(object sender, EventArgs e)
         {
-            string message = "Bạn có chắc chắn đổi mật khẩu?";
+            string message = "Bạn có chắc chắn muốn đổi mật khẩu?";
             DialogResult result = MessageBox.Show(message, "Xác nhận",
                 MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.OK)
