@@ -840,7 +840,7 @@ INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [T
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (98, 0, N'LC01', N'G14', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (99, 0, N'LC01', N'J1', NULL, 0, 0.0000)
 GO
-INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (100, 0, N'LC01', N'J2', NULL, 0, 0.0000)
+/*INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (100, 0, N'LC01', N'J2', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (101, 0, N'LC01', N'J3', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (102, 0, N'LC01', N'J4', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (103, 0, N'LC01', N'J5', NULL, 0, 0.0000)
@@ -881,6 +881,7 @@ INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [T
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (138, 0, N'LC01', N'K12', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (139, 0, N'LC01', N'K13', NULL, 0, 0.0000)
 INSERT [dbo].[Ve] ([id], [LoaiVe], [idLichChieu], [MaGheNgoi], [idKhachHang], [TrangThai], [TienBanVe]) VALUES (140, 0, N'LC01', N'K14', NULL, 0, 0.0000)
-
+*/
 SET IDENTITY_INSERT [dbo].[Ve] OFF
 GO
+
